@@ -1,10 +1,9 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Sharon Waymost
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-07'
+date-meta: '2020-07-09'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -15,17 +14,17 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Review of Package Managers for Bioinformatics Software Distribution" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Review of Package Managers for Bioinformatics Software Distribution" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
 
-  <meta name="dc.date" content="2020-07-07" />
+  <meta name="dc.date" content="2020-07-09" />
 
-  <meta name="citation_publication_date" content="2020-07-07" />
+  <meta name="citation_publication_date" content="2020-07-09" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -39,21 +38,11 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Sharon Waymost" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="CS Dept, UCLA" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0003-1176-5386" />
 
   <link rel="canonical" href="https://sbpw.github.io/pkg-manager-review/" />
 
@@ -67,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/82c13b2bc1c3acbdc722bc82f33395213fb36c05/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/82c13b2bc1c3acbdc722bc82f33395213fb36c05/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/82c13b2bc1c3acbdc722bc82f33395213fb36c05/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,15 +74,16 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
+- package managers
+- containerization
+- distribution
+- docker
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Review of Package Managers for Bioinformatics Software Distribution
 ...
 
 
@@ -103,35 +93,23 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/82c13b2bc1c3acbdc722bc82f33395213fb36c05/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/))
 was automatically generated
-from [sbpw/pkg-manager-review@82c13b2](https://github.com/sbpw/pkg-manager-review/tree/82c13b2bc1c3acbdc722bc82f33395213fb36c05)
-on July 7, 2020.
+from [sbpw/pkg-manager-review@5a6920b](https://github.com/sbpw/pkg-manager-review/tree/5a6920b06155d01d8856355993485007cbb7dc74)
+on July 9, 2020.
 </em></small>
 
 ## Authors
 
 
 
-+ **John Doe**<br>
++ **Sharon Waymost**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-1176-5386](https://orcid.org/0000-0003-1176-5386)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [sbpw](https://github.com/sbpw)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     CS Dept, UCLA
   </small>
 
 
@@ -141,7 +119,83 @@ on July 7, 2020.
 
 
 
+## Introduction {.page_break_before}
+
+
+
+
+## Discussion {.page_break_before}
+
+### Existing problems with software distribution and installation
+- root access limitations
+- reproducibility of findings
+- version conflicts
+- dependency resolution
+
+### Definitions and explanations of distribution system types
+- package managers
+-- definition
+-- benefits for the developer
+--- mature technology - higher degree of familiarity
+--- allows dependency specification (including versions)
+--limitations for the developer
+--- can't always use to install missing dependencies for end-user
+-- benefits for the end-user
+--- package size is minimal (dependencies aren't duplicated)
+--- installs missing dependencies
+-- limitations for the end-user
+--- not always accessible (unless admin user)
+--- can't install multiple versions of same software
+- containerization
+-- definition
+-- "Why containers?" Comic
+-- benefits for the developer
+--- include specific versions of dependencies
+--- known running environment
+---- fewer test variables
+---- reproducibility of results
+-- limitations for the developer
+--- learn a new system instead of focusing on research
+-- benefits for the end-user
+--- no installation (except possible runtime)
+--- no dependency issues
+--- sandbox provides computer system security
+-- limitations for the end-user
+--- container size
+--- duplication of dependencies
+--- root access requirement to install runtime
+--- configuration in cluster
+- centralized repositories
+-- definition
+-- benefits
+--- known download site
+--- hosting is taken of
+-- limitations
+--- repo specific restrictions
+
+## Glossary {.page_break_before}
+
+
+
+
+## Acknowledgements {.page_break_before}
+
+
+
+
+## Author Contributions {.page_break_before}
+
+
+
+
 ## References {.page_break_before}
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
+
+## Tables {.page_break_before}
+
+| Distribution System Name | URL | Publication | Type | Licensing |
+| :----------------------- | :-- | :---------- | :--- | :-------- |
+| AppImage | appimage.org | something | blah | whatever |

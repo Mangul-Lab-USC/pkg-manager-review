@@ -1,4 +1,7 @@
-janeroe
-johndoe
-XXXX
-XXXXXXXX
+Acknowledgements
+appimage
+repo
+reproducibility
+runtime
+sbpw
+Waymost
