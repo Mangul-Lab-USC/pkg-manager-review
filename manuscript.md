@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/))
 was automatically generated
-from [sbpw/pkg-manager-review@e89c460](https://github.com/sbpw/pkg-manager-review/tree/e89c46056e4164f98aba68cadcd0f5cf16cb76d6)
+from [sbpw/pkg-manager-review@0e6a03f](https://github.com/sbpw/pkg-manager-review/tree/0e6a03fc5775f38a1190af258e24db26b33f9000)
 on July 9, 2020.
 </em></small>
 
@@ -148,8 +148,7 @@ on July 9, 2020.
     - can't install multiple versions of same software
 - containerization
   - definition
-  - "Why containers?" Comic
-!["Why containers?" by Julia Evans](images/why_containers.jpeg){#fig:why-containers-comic}
+!["Why containers?" by Julia Evans](images/why_containers_comic.jpeg){#fig:why-containers-comic}
   - benefits for the developer
     - include specific versions of dependencies
     - known running environment
