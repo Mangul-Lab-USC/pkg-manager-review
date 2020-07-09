@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/e89c46056e4164f98aba68cadcd0f5cf16cb76d6/))
 was automatically generated
-from [sbpw/pkg-manager-review@6fca808](https://github.com/sbpw/pkg-manager-review/tree/6fca808db65bff70b71fb6eae9cf5d603e66a1d5)
+from [sbpw/pkg-manager-review@e89c460](https://github.com/sbpw/pkg-manager-review/tree/e89c46056e4164f98aba68cadcd0f5cf16cb76d6)
 on July 9, 2020.
 </em></small>
 
@@ -149,6 +149,7 @@ on July 9, 2020.
 - containerization
   - definition
   - "Why containers?" Comic
+!["Why containers?" by Julia Evans](images/why_containers.jpeg){#fig:why-containers-comic}
   - benefits for the developer
     - include specific versions of dependencies
     - known running environment
