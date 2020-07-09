@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/5a6920b06155d01d8856355993485007cbb7dc74/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/6fca808db65bff70b71fb6eae9cf5d603e66a1d5/))
 was automatically generated
-from [sbpw/pkg-manager-review@5a6920b](https://github.com/sbpw/pkg-manager-review/tree/5a6920b06155d01d8856355993485007cbb7dc74)
+from [sbpw/pkg-manager-review@6fca808](https://github.com/sbpw/pkg-manager-review/tree/6fca808db65bff70b71fb6eae9cf5d603e66a1d5)
 on July 9, 2020.
 </em></small>
 
@@ -134,44 +134,44 @@ on July 9, 2020.
 
 ### Definitions and explanations of distribution system types
 - package managers
--- definition
--- benefits for the developer
---- mature technology - higher degree of familiarity
---- allows dependency specification (including versions)
---limitations for the developer
---- can't always use to install missing dependencies for end-user
--- benefits for the end-user
---- package size is minimal (dependencies aren't duplicated)
---- installs missing dependencies
--- limitations for the end-user
---- not always accessible (unless admin user)
---- can't install multiple versions of same software
+  - definition
+  - benefits for the developer
+    - mature technology - higher degree of familiarity
+    - allows dependency specification (including versions)
+  -limitations for the developer
+    - can't always use to install missing dependencies for end-user
+  - benefits for the end-user
+    - package size is minimal (dependencies aren't duplicated)
+    - installs missing dependencies
+  - limitations for the end-user
+    - not always accessible (unless admin user)
+    - can't install multiple versions of same software
 - containerization
--- definition
--- "Why containers?" Comic
--- benefits for the developer
---- include specific versions of dependencies
---- known running environment
----- fewer test variables
----- reproducibility of results
--- limitations for the developer
---- learn a new system instead of focusing on research
--- benefits for the end-user
---- no installation (except possible runtime)
---- no dependency issues
---- sandbox provides computer system security
--- limitations for the end-user
---- container size
---- duplication of dependencies
---- root access requirement to install runtime
---- configuration in cluster
+  - definition
+  - "Why containers?" Comic
+  - benefits for the developer
+    - include specific versions of dependencies
+    - known running environment
+      - fewer test variables
+      - reproducibility of results
+  - limitations for the developer
+    - learn a new system instead of focusing on research
+  - benefits for the end-user
+    - no installation (except possible runtime)
+    - no dependency issues
+    - sandbox provides computer system security
+  - limitations for the end-user
+    - container size
+    - duplication of dependencies
+    - root access requirement to install runtime
+    - configuration in cluster
 - centralized repositories
--- definition
--- benefits
---- known download site
---- hosting is taken of
--- limitations
---- repo specific restrictions
+  - definition
+  - benefits
+    - known download site
+    - hosting is taken of
+  - limitations
+    - repo specific restrictions
 
 ## Glossary {.page_break_before}
 
