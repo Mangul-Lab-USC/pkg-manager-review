@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Sharon Waymost" />
-  <meta name="dcterms.date" content="2020-07-09" />
+  <meta name="dcterms.date" content="2020-07-16" />
   <meta name="keywords" content="package managers, containerization, distribution, docker" />
   <title>Review of Package Managers for Bioinformatics Software Distribution</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="Review of Package Managers for Bioinformatics Software Distribution" />
   <meta property="og:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
   <meta property="twitter:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
-  <meta name="dc.date" content="2020-07-09" />
-  <meta name="citation_publication_date" content="2020-07-09" />
+  <meta name="dc.date" content="2020-07-16" />
+  <meta name="citation_publication_date" content="2020-07-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@
   <meta name="citation_fulltext_html_url" content="https://sbpw.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/" />
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/" />
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/5fc7bb877bb12774d911a4ef8dc48c1060a0ec98/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5fc7bb877bb12774d911a4ef8dc48c1060a0ec98/" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5fc7bb877bb12774d911a4ef8dc48c1060a0ec98/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,10 +61,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://sbpw.github.io/pkg-manager-review/v/0e6a03fc5775f38a1190af258e24db26b33f9000/">permalink</a>)
+(<a href="https://sbpw.github.io/pkg-manager-review/v/5fc7bb877bb12774d911a4ef8dc48c1060a0ec98/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/sbpw/pkg-manager-review/tree/0e6a03fc5775f38a1190af258e24db26b33f9000">sbpw/pkg-manager-review@0e6a03f</a>
-on July 9, 2020.
+from <a href="https://github.com/sbpw/pkg-manager-review/tree/5fc7bb877bb12774d911a4ef8dc48c1060a0ec98">sbpw/pkg-manager-review@5fc7bb8</a>
+on July 16, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -113,7 +113,7 @@ CS Dept, UCLA
 <li>containerization
 <ul>
 <li>definition
-<img src="images/why_containers_comic.jpeg" id="fig:why-containers-comic" alt="“Why containers?” by Julia Evans" /></li>
+<img src="images/why_containers_comic.jpeg" id="fig:why-containers-comic" style="width:5in" alt="“Why containers?” by Julia Evans" /></li>
 <li>benefits for the developer
 <ul>
 <li>include specific versions of dependencies</li>
@@ -165,6 +165,13 @@ CS Dept, UCLA
 </div>
 <h2 class="page_break_before" id="tables">Tables</h2>
 <table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 32%" />
+<col style="width: 16%" />
+<col style="width: 12%" />
+<col style="width: 18%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Distribution System Name</th>
@@ -177,13 +184,473 @@ CS Dept, UCLA
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">AppImage</td>
-<td style="text-align: left;">appimage.org</td>
-<td style="text-align: left;">something</td>
-<td style="text-align: left;">blah</td>
-<td style="text-align: left;">whatever</td>
+<td style="text-align: left;">https://appimage.org/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">containerization</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">APT</td>
+<td style="text-align: left;">https://wiki.debian.org/Apt</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">GNU GPL 2+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bioconda</td>
+<td style="text-align: left;">https://bioconda.github.io/</td>
+<td style="text-align: left;">Grüning et al, 2018</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bioconductor</td>
+<td style="text-align: left;">https://www.bioconductor.org/</td>
+<td style="text-align: left;">Gentleman et al, 2004</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CRAN</td>
+<td style="text-align: left;">https://cran.r-project.org/index.html</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">GNU GPL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Docker</td>
+<td style="text-align: left;">https://www.docker.com/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">containerization</td>
+<td style="text-align: left;">Apache 2.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Easybuild</td>
+<td style="text-align: left;">https://easybuilders.github.io/easybuild/</td>
+<td style="text-align: left;">Hoste et al, 2012</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">GNU GPL 2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FlatPak</td>
+<td style="text-align: left;">https://flatpak.org/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">containerization</td>
+<td style="text-align: left;">LGPL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GNU Guix</td>
+<td style="text-align: left;">https://www.gnu.org/software/guix/</td>
+<td style="text-align: left;">Courtès, 2013</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">GNU AGPL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Homebrew</td>
+<td style="text-align: left;">https://brew.sh/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">BSD 2-Clause Simplified</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pip</td>
+<td style="text-align: left;">https://pypi.org/project/pip/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Singularity</td>
+<td style="text-align: left;">https://sylabs.io/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">containerization</td>
+<td style="text-align: left;">BSD 3 Clause</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Snap</td>
+<td style="text-align: left;">https://snapcraft.io/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">containerization</td>
+<td style="text-align: left;">propriertary</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Spack</td>
+<td style="text-align: left;">https://spack.io/</td>
+<td style="text-align: left;">Gamblin et al, 2015</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">MIT or Apache</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vagrant</td>
+<td style="text-align: left;">https://www.vagrantup.com/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">virtual machine</td>
+<td style="text-align: left;">MIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">yum</td>
+<td style="text-align: left;">http://yum.baseurl.org/</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zero Install</td>
+<td style="text-align: left;">https://0install.net</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">package manager</td>
+<td style="text-align: left;">GNU LGPL 2.1+</td>
 </tr>
 </tbody>
 </table>
+<p>{#tbl:basic-info}</p>
+<div class="line-block">Distribution System Name | Supported Operating Systems | Root Access Required | Cluster User Access |<br />
+:———————– | :– | | :— | :— |<br />
+AppImage |<br />
+APT |<br />
+Bioconda |<br />
+Bioconductor |<br />
+CRAN |<br />
+Docker |<br />
+Easybuild |<br />
+FlatPak |<br />
+GNU Guix |<br />
+Homebrew |<br />
+pip |<br />
+Singularity |<br />
+Snap |<br />
+Spack |<br />
+Vagrant |<br />
+yum |<br />
+Zero Install |</div>
+<p>{#tbl:availability}</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 19%" />
+<col style="width: 21%" />
+<col style="width: 4%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Distribution System Name</th>
+<th style="text-align: left;">First Release</th>
+<th style="text-align: left;">Latest Release</th>
+<th style="text-align: left;">Age</th>
+<th style="text-align: left;">Number of Releases</th>
+<th style="text-align: left;">Number of Tools</th>
+<th style="text-align: left;">Number of Bio Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AppImage</td>
+<td style="text-align: left;">2014-01-24</td>
+<td style="text-align: left;">2020-06-01</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">121</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">APT</td>
+<td style="text-align: left;">1998-03-31</td>
+<td style="text-align: left;">2020-05-08</td>
+<td style="text-align: left;">22</td>
+<td style="text-align: left;">362</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bioconda</td>
+<td style="text-align: left;">2014-01-24</td>
+<td style="text-align: left;">2016-09-06</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">39</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bioconductor</td>
+<td style="text-align: left;">2002-05-01</td>
+<td style="text-align: left;">2020-04-28</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">37</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">conda</td>
+<td style="text-align: left;">2014-01-24</td>
+<td style="text-align: left;">2020-04-13</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">215</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CRAN</td>
+<td style="text-align: left;">1997-04-23</td>
+<td style="text-align: left;">2020-02-29</td>
+<td style="text-align: left;">22</td>
+<td style="text-align: left;">29</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Docker</td>
+<td style="text-align: left;">2013-03-23</td>
+<td style="text-align: left;">2020-06-01</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">121</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Easybuild</td>
+<td style="text-align: left;">2012-11-09</td>
+<td style="text-align: left;">2020-04-14</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">51</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FlatPak</td>
+<td style="text-align: left;">2015-03-23</td>
+<td style="text-align: left;">2020-04-03</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">128</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GNU Guix</td>
+<td style="text-align: left;">2012-07-07</td>
+<td style="text-align: left;">2020-04-15</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Homebrew</td>
+<td style="text-align: left;">2009-05-20</td>
+<td style="text-align: left;">2020-05-04</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">155</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">pip</td>
+<td style="text-align: left;">2009-01-20</td>
+<td style="text-align: left;">2020-04-28</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">81</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Singularity</td>
+<td style="text-align: left;">2012-07-07</td>
+<td style="text-align: left;">2020-04-15</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Snap</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Spack</td>
+<td style="text-align: left;">2014-07-09</td>
+<td style="text-align: left;">2020-04-15</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">27</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Vagrant</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">yum (CHECK RED HAT)</td>
+<td style="text-align: left;">2002-06-08</td>
+<td style="text-align: left;">2011-06-28</td>
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">221</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Zero Install</td>
+<td style="text-align: left;">2005-02-04</td>
+<td style="text-align: left;">2020-05-04</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">145</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>{#tbl:popularity}</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 22%" />
+<col style="width: 13%" />
+<col style="width: 10%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Distribution System Name</th>
+<th style="text-align: left;">Official Repository Name</th>
+<th style="text-align: left;">Store URL</th>
+<th style="text-align: left;">Pricing</th>
+<th style="text-align: left;">Restrictions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AppImage</td>
+<td style="text-align: left;">AppImageHub</td>
+<td style="text-align: left;">https://appimage.github.io/apps/</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">APT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bioconda</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bioconductor</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CRAN</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Docker</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Easybuild</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FlatPak</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GNU Guix</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Homebrew</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">pip</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Singularity</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Snap</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Spack</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vagrant</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">yum</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Zero Install</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>{#tbl:official-repositories}</p>
 <!-- default theme -->
 
 <style>
