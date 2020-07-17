@@ -8,7 +8,8 @@ conda
 Courtès
 CRAN
 Easybuild
-FlatPak
+Flathub
+Flatpak
 Gamblin
 GPL
 Grüning
@@ -16,6 +17,7 @@ Guix
 Homebrew
 Hoste
 LGPL
+macOS
 propriertary
 repo
 reproducibility
