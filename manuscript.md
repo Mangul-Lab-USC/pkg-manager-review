@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/2ccc4618a9c30fc332badae847745123b4e16fda/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/b32bd032806cbc26221b3927312d652bee784b0c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/2ccc4618a9c30fc332badae847745123b4e16fda/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/b32bd032806cbc26221b3927312d652bee784b0c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/2ccc4618a9c30fc332badae847745123b4e16fda/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/b32bd032806cbc26221b3927312d652bee784b0c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/2ccc4618a9c30fc332badae847745123b4e16fda/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/b32bd032806cbc26221b3927312d652bee784b0c/))
 was automatically generated
-from [sbpw/pkg-manager-review@2ccc461](https://github.com/sbpw/pkg-manager-review/tree/2ccc4618a9c30fc332badae847745123b4e16fda)
+from [sbpw/pkg-manager-review@b32bd03](https://github.com/sbpw/pkg-manager-review/tree/b32bd032806cbc26221b3927312d652bee784b0c)
 on July 18, 2020.
 </em></small>
 
@@ -219,25 +219,25 @@ on July 18, 2020.
 
 
 | Distribution System Name | Supported Operating Systems | Supported Languages | Root to Install | Root to Run |
-| :----------------------- | :-------------------------- | :------------------ | :-- | :-- |
-| AppImage                 | Linux                       | any                 | n/a | no  |
-| APT                      | Debian, Ubuntu              | any                 | yes | yes |
-| Bioconda                 | Linux, macOS, Windows       | any                 | no  | no  |
-| Bioconductor             | Linux, macOS, Windows       | R                   | no  | no  |
-| conda                    | Linux, macOS, Windows       | any                 | no  | no  | 
-| CRAN                     | Linux, macOS, Windows       | R                   | no  | no  |
-| Docker                   | Linux, macOS, Windows       | any                 | yes | no  |
-| Easybuild                | Linux                       | any                 | no  | no  |
-| Flatpak                  | Linux                       | any                 | no  | no  |
-| GNU Guix                 | Linux                       | any                 | no  | no  |
-| Homebrew                 | Linux, macOS                | any                 | no  | no  |
-| pip                      | Linux, macOS, Windows       | Python              | no  | no  |
-| Singularity              | Linux, macOS                | any                 | yes | no  |
-| Snap                     | Linux                       | any                 | yes | no  |
-| Spack                    | Linux, macOS                | any                 | no  | no  |
-| Vagrant                  | Linux, macOS, Windows       | any                 | yes |     |
-| yum                      | Linux, macOS, Windows       | any                 | no  | yes |
-| Zero Install             | Linux, macOS, Windows       | any                 | no  | no  | {#tbl:features} 
+| :----------- | :-------------------- | :---------| :------- | :------- |
+| AppImage     | Linux                 | any       | n/a      | no       |
+| APT          | Debian, Ubuntu        | any       | yes      | yes      |
+| Bioconda     | Linux, macOS, Windows | any       | no       | no       |
+| Bioconductor | Linux, macOS, Windows | R         | no       | no       |
+| conda        | Linux, macOS, Windows | any       | no       | no       | 
+| CRAN         | Linux, macOS, Windows | R         | no       | no       |
+| Docker       | Linux, macOS, Windows | any       | yes      | no       |
+| Easybuild    | Linux                 | any       | no       | no       |
+| Flatpak      | Linux                 | any       | no       | no       |
+| GNU Guix     | Linux                 | any       | no       | no       |
+| Homebrew     | Linux, macOS          | any       | no       | no       |
+| pip          | Linux, macOS, Windows | Python    | no       | no       |
+| Singularity  | Linux, macOS          | any       | yes      | no       |
+| Snap         | Linux                 | any       | yes      | no       |
+| Spack        | Linux, macOS          | any       | no       | no       |
+| Vagrant      | Linux, macOS, Windows | any       | yes      |          |
+| yum          | Linux, macOS, Windows | any       | no       | yes      |
+| Zero Install | Linux, macOS, Windows | any       | no       | no       | {#tbl:features} 
 
 
 | Distribution System Name | First Release | Latest Release | Age | Number of Releases | Number of Tools | Number of Bio Tools |
