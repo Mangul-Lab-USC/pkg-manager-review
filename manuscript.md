@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/678f48bcb83a21448c27594cc6ac788bf5ad4336/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/678f48bcb83a21448c27594cc6ac788bf5ad4336/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/678f48bcb83a21448c27594cc6ac788bf5ad4336/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/678f48bcb83a21448c27594cc6ac788bf5ad4336/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/))
 was automatically generated
-from [sbpw/pkg-manager-review@678f48b](https://github.com/sbpw/pkg-manager-review/tree/678f48bcb83a21448c27594cc6ac788bf5ad4336)
+from [sbpw/pkg-manager-review@76fbaca](https://github.com/sbpw/pkg-manager-review/tree/76fbaca9347668a37889b882aad87dc85d05a70d)
 on July 18, 2020.
 </em></small>
 
@@ -197,25 +197,25 @@ on July 18, 2020.
 ## Tables {.page_break_before}
 
 | Distribution System Name | URL | Publication | Type | License |
-| :----------- | :--------------------------------------- | :-------------------- | :--------------- | :---------------------- |
-| AppImage     | https://appimage.org                     | -                     | containerization | MIT                     |
-| APT          | https://wiki.debian.org/Apt              | -                     | package manager  | GNU GPL 2+              |
-| Bioconda     | https://bioconda.github.io               | Grüning et al, 2018   | package manager  | MIT                     |
-| Bioconductor | https://www.bioconductor.org             | Gentleman et al, 2004 | package manager  | MIT                     |
-| conda        | https://docs.conda.io/en/latest          | -                     | package manager  | 3-Clause BSD            |
-| CRAN         | https://cran.r-project.org/index.html    | -                     | package manager  | GNU GPL                 |
-| Docker       | https://www.docker.com                   | -                     | containerization | Apache 2.0              |
-| Easybuild    | https://easybuilders.github.io/easybuild | Hoste et al, 2012     | package manager  | GNU GPL 2               |
-| Flatpak      | https://flatpak.org                      | -                     | containerization | LGPL                    |
-| GNU Guix     | https://www.gnu.org/software/guix        | Courtès, 2013         | package manager  | GNU AGPL                |
-| Homebrew     | https://brew.sh                          | -                     | package manager  | BSD 2-Clause Simplified |
-| pip          | https://pypi.org/project/pip             | -                     | package manager  | MIT                     |
-| Singularity  | https://sylabs.io                        | -                     | containerization | 3-Clause BSD            |
-| Snap         | https://snapcraft.io                     | -                     | containerization | propriertary            |
-| Spack        | https://spack.io                         | Gamblin et al, 2015   | package manager  | MIT or Apache           |
-| Vagrant      | https://www.vagrantup.com                | -                     | virtual machine  | MIT                     |
-| yum          | http://yum.baseurl.org                   | -                     | package manager  |                         |
-| Zero Install | https://0install.net                     | -                     | package manager  | GNU LGPL 2.1+           | {#tbl:basic-info}
+| :----------- | :--------------------------------------- | :-------------------- | :--------------- | :------------ |
+| AppImage     | https://appimage.org                     | -                     | containerization | MIT           |
+| APT          | https://wiki.debian.org/Apt              | -                     | package manager  | GNU GPL 2+    |
+| Bioconda     | https://bioconda.github.io               | Grüning et al, 2018   | package manager  | MIT           |
+| Bioconductor | https://www.bioconductor.org             | Gentleman et al, 2004 | package manager  | MIT           |
+| conda        | https://docs.conda.io/en/latest          | -                     | package manager  | 3-Clause BSD  |
+| CRAN         | https://cran.r-project.org/index.html    | -                     | package manager  | GNU GPL       |
+| Docker       | https://www.docker.com                   | -                     | containerization | Apache 2.0    |
+| Easybuild    | https://easybuilders.github.io/easybuild | Hoste et al, 2012     | package manager  | GNU GPL 2     |
+| Flatpak      | https://flatpak.org                      | -                     | containerization | LGPL          |
+| GNU Guix     | https://www.gnu.org/software/guix        | Courtès, 2013         | package manager  | GNU AGPL      |
+| Homebrew     | https://brew.sh                          | -                     | package manager  | 2-Clause BSD  |
+| pip          | https://pypi.org/project/pip             | -                     | package manager  | MIT           |
+| Singularity  | https://sylabs.io                        | -                     | containerization | 3-Clause BSD  |
+| Snap         | https://snapcraft.io                     | -                     | containerization | propriertary  |
+| Spack        | https://spack.io                         | Gamblin et al, 2015   | package manager  | MIT or Apache |
+| Vagrant      | https://www.vagrantup.com                | -                     | virtual machine  | MIT           |
+| yum          | http://yum.baseurl.org                   | -                     | package manager  |               |
+| Zero Install | https://0install.net                     | -                     | package manager  | GNU LGPL 2.1+ | {#tbl:basic-info}
 
 
 | Distribution System Name | Supported Operating Systems | Supported Languages | Root to Install | Root to Run |
@@ -241,25 +241,25 @@ on July 18, 2020.
 
 
 | Distribution System Name | First Release | Latest Release | Age in Years | Number of Releases | Number of Tools | Number of Bio Tools |
-| :----------------------- | :------------ | :------------- | -----: | -------: | -------: | -------: |
-| AppImage     | 2014-01-24    | 2020-06-01     | 7   | 121  | | |
-| APT          | 1998-03-31    | 2020-05-08     | 22  | 362  | | |
-| Bioconda     | 2014-01-24    | 2016-09-06     | 7   | 39   | | | 
-| Bioconductor | 2002-05-01    | 2020-04-28     | 17  | 37   | | |
-| conda        | 2014-01-24    | 2020-04-13     | 6   | 261  | | |
-| CRAN         | 1997-04-23    | 2020-02-29     | 22  | 29   | | |
-| Docker*      | 2013-03-23    | 2020-06-01     | 7   | 121  | | |
-| Easybuild    | 2012-11-09    | 2020-04-14     | 7   | 51   | | |
-| Flatpak      | 2015-03-23    | 2020-04-03     | 5   | 128  | | |
-| GNU Guix     | 2012-07-07    | 2020-04-15     | 7   | 23   | | |
-| Homebrew     | 2009-05-20    | 2020-05-04     | 10  | 155  | | |
-| pip          | 2009-01-20    | 2020-04-28     | 11  | 81   | | |
-| Singularity  | 2012-07-07    | 2020-04-15     | 7   | 23   | | |    
-| snapd        | 2014-12-09    | 2020-07-15     | 5   | 232  | | |
-| Spack        | 2014-07-09    | 2020-04-15     | 5   | 27   | | |
-| Vagrant      |               |                |     |      | | | 
-| yum**        | 2002-06-08    | 2011-06-28     | 18  | 221  | | |
-| Zero Install | 2005-02-04    | 2020-05-04     | 15  | 145  | | | {#tbl:popularity}
+| :----------- | :--------- | :--------- | ------: | -------: | -------: | -------: |
+| AppImage     | 2014-01-24 | 2020-06-01 | 7   | 121  | | |
+| APT          | 1998-03-31 | 2020-05-08 | 22  | 362  | | |
+| Bioconda     | 2014-01-24 | 2016-09-06 | 7   | 39   | | | 
+| Bioconductor | 2002-05-01 | 2020-04-28 | 17  | 37   | | |
+| conda        | 2014-01-24 | 2020-04-13 | 6   | 261  | | |
+| CRAN         | 1997-04-23 | 2020-02-29 | 22  | 29   | | |
+| Docker*      | 2013-03-23 | 2020-06-01 | 7   | 121  | | |
+| Easybuild    | 2012-11-09 | 2020-04-14 | 7   | 51   | | |
+| Flatpak      | 2015-03-23 | 2020-04-03 | 5   | 128  | | |
+| GNU Guix     | 2012-07-07 | 2020-04-15 | 7   | 23   | | |
+| Homebrew     | 2009-05-20 | 2020-05-04 | 10  | 155  | | |
+| pip          | 2009-01-20 | 2020-04-28 | 11  | 81   | | |
+| Singularity  | 2012-07-07 | 2020-04-15 | 7   | 23   | | |    
+| snapd        | 2014-12-09 | 2020-07-15 | 5   | 232  | | |
+| Spack        | 2014-07-09 | 2020-04-15 | 5   | 27   | | |
+| Vagrant      |            |            |     |      | | | 
+| yum**        | 2002-06-08 | 2011-06-28 | 18  | 221  | | |
+| Zero Install | 2005-02-04 | 2020-05-04 | 15  | 145  | | | {#tbl:popularity}
 *Docker Engine
 **need to find someone with a redhat license who can confirm numbers 
 
