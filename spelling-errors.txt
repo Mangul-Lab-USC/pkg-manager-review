@@ -19,9 +19,12 @@ Hoste
 LGPL
 macOS
 propriertary
+PyPI
 repo
 reproducibility
 runtime
 sbpw
+Snapcraft
+snapd
 Spack
 Waymost
