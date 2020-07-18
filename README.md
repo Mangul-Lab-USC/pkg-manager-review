@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/sbpw/pkg-manager-review/tree/gh-pages) branch hosts the contents of this directory at <https://sbpw.github.io/pkg-manager-review/>.
-The permalink for this webpage version is <https://sbpw.github.io/pkg-manager-review/v/2ccc4618a9c30fc332badae847745123b4e16fda/>.
+The permalink for this webpage version is <https://sbpw.github.io/pkg-manager-review/v/b32bd032806cbc26221b3927312d652bee784b0c/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://sbpw.github.io/pkg-manager-review/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`2ccc4618a9c30fc332badae847745123b4e16fda`](https://github.com/sbpw/pkg-manager-review/commit/2ccc4618a9c30fc332badae847745123b4e16fda).
+[`b32bd032806cbc26221b3927312d652bee784b0c`](https://github.com/sbpw/pkg-manager-review/commit/b32bd032806cbc26221b3927312d652bee784b0c).
