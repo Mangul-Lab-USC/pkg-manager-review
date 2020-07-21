@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Sharon Waymost" />
-  <meta name="dcterms.date" content="2020-07-18" />
+  <meta name="dcterms.date" content="2020-07-21" />
   <meta name="keywords" content="package managers, containerization, distribution, docker" />
   <title>Review of Package Managers for Bioinformatics Software Distribution</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="Review of Package Managers for Bioinformatics Software Distribution" />
   <meta property="og:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
   <meta property="twitter:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
-  <meta name="dc.date" content="2020-07-18" />
-  <meta name="citation_publication_date" content="2020-07-18" />
+  <meta name="dc.date" content="2020-07-21" />
+  <meta name="citation_publication_date" content="2020-07-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@
   <meta name="citation_fulltext_html_url" content="https://sbpw.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/" />
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/5f5bc30a4041e6420a8b949de74c7a584e383a22/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5f5bc30a4041e6420a8b949de74c7a584e383a22/" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/5f5bc30a4041e6420a8b949de74c7a584e383a22/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,10 +61,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://sbpw.github.io/pkg-manager-review/v/76fbaca9347668a37889b882aad87dc85d05a70d/">permalink</a>)
+(<a href="https://sbpw.github.io/pkg-manager-review/v/5f5bc30a4041e6420a8b949de74c7a584e383a22/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/sbpw/pkg-manager-review/tree/76fbaca9347668a37889b882aad87dc85d05a70d">sbpw/pkg-manager-review@76fbaca</a>
-on July 18, 2020.
+from <a href="https://github.com/sbpw/pkg-manager-review/tree/5f5bc30a4041e6420a8b949de74c7a584e383a22">sbpw/pkg-manager-review@5f5bc30</a>
+on July 21, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -79,6 +79,23 @@ CS Dept, UCLA
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
+<p>The rapid advancement of omics and sequencing technologies has led to an accelerated growth of genomic data.</p>
+<p>Driven by this data, there are similar increases in the number of available bioinformatics software tools, often containing novel and diverse algorithms of particular interest to biomedical researchers.<a href="https://paperpile.com/c/4vBDtY/K3NL0+2VBcv">1,2</a>,<a href="https://paperpile.com/c/4vBDtY/invAu+anSBw">3,4</a>.</p>
+<p>Biomedical researchers wanting to use this software often have access to high-performance clusters (“clusters”), but lack the operating system-level permissions and advanced skills required to install and run the software.</p>
+<p>None of the necessary skills are currently included in the traditional life science curriculum at major universities.</p>
+<p>Usability is further hindered by the absence of any standardization and the wide variety of software development tools employed.</p>
+<p>This is directly observable in many academic software tools lacking a user-friendly interface<a href="https://paperpile.com/c/4vBDtY/kjwlC">5</a>.</p>
+<p>As the dependence of biomedical researchers on computational software continues to increase, software developers need to consider more user-friendly distribution and install methods.</p>
+<p>Modern software distribution, having already faced user-friendliness issues, is already becoming more reliant on platforms such as package managers<a href="https://paperpile.com/c/4vBDtY/FzmWB+bOcb9">6,7</a> and containers<a href="https://paperpile.com/c/4vBDtY/MSoil">8</a>.</p>
+<p>Both promise to simplify software development while increasing the usability and reproducibility of biomedical research<a href="https://paperpile.com/c/4vBDtY/MSoil+1z8Fh">8,9</a>.</p>
+<p>Containers serve a similar purpose, in that they provide a mechanism for acquiring new software, but with a different approach.</p>
+<p>Software is downloaded in a container “image,” which can be run on any operating system (e.g. Linux, Windows, etc.).</p>
+<p>Containers are a much more recent concept, so they are not nearly as familiar to software developers as package managers are.</p>
+<p>In addition to the ease of installation and use offered by both package managers and containers, such platforms must also meet the biomedical community’s need for compatibility with high performance clusters.</p>
+<p>However, the relative performance of these package managers and containers remains unknown.</p>
+<p>Our review summarizes developing practices across the most common package managers and containers, while discussing the challenges, advantages, and limitations of using them from both the developer and the user perspectives.</p>
+<p>By taking a survey of all the available package managers and container software, there is now a comprehensive list of the different attributes of each one, informing the community so that people can make educated decisions about which package manager or container makes the most sense for their project.</p>
+<p>We also propose principles that can make packaging and containerizing of bioinformatics software more sustainable and reproducible, ultimately increasing the usability of bioinformatics software.</p>
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <h3 id="existing-problems-with-software-distribution-and-installation">Existing problems with software distribution and installation</h3>
 <ul>
