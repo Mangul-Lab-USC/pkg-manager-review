@@ -4,6 +4,7 @@ AppImage
 AppImageHub
 Bioconda
 Bioconductor
+bioinformatics
 conda
 Courtès
 CRAN
@@ -11,6 +12,7 @@ Easybuild
 Flathub
 Flatpak
 Gamblin
+genomic
 GPL
 Grüning
 Guix
@@ -18,6 +20,7 @@ Homebrew
 Hoste
 LGPL
 macOS
+omics
 propriertary
 PyPI
 redhat

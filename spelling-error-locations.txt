@@ -1,3 +1,9 @@
+content/02.introduction.md:3:genomic
+content/02.introduction.md:3:omics
+content/02.introduction.md:5:bioinformatics
+content/02.introduction.md:19:reproducibility
+content/02.introduction.md:37:bioinformatics
+content/02.introduction.md:37:bioinformatics
 content/03.discussion.md:5:reproducibility
 content/03.discussion.md:30:reproducibility
 content/03.discussion.md:34:runtime
