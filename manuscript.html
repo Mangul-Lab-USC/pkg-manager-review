@@ -45,9 +45,9 @@
   <meta name="citation_fulltext_html_url" content="https://sbpw.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/" />
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -61,9 +61,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/">permalink</a>)
+(<a href="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/sbpw/pkg-manager-review/tree/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a">sbpw/pkg-manager-review@57dbc5f</a>
+from <a href="https://github.com/sbpw/pkg-manager-review/tree/929cc5052c8d89b2fc1067ca4686d67ffbe7f872">sbpw/pkg-manager-review@929cc50</a>
 on July 21, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -88,9 +88,15 @@ This is directly observable in many academic software tools lacking a user-frien
 <p>As the dependence of biomedical researchers on computational software continues to increase, software developers need to consider more user-friendly distribution and install methods.
 Modern software distribution, having already faced user-friendliness issues, is already becoming more reliant on platforms such as package managers[6,7] and containers[8].
 Both promise to simplify software development while increasing the usability and reproducibility of biomedical research[8,9].</p>
-<p>Containers serve a similar purpose, in that they provide a mechanism for acquiring new software, but with a different approach.
-Software is downloaded in a container “image,” which can be run on any operating system (e.g. Linux, Windows, etc.).
-Containers are a much more recent concept, so they are not nearly as familiar to software developers as package managers are.</p>
+<p>Package managers first appeared nearly thirty years ago as software developers sought to streamline the entire installation process.
+To install via package manager, the user must only specify the desired software, called a “package;” the download, installation, configuration, and dependencies are all handled by the package manager.
+Many operating systems have built-in package managers (e.g. APT), which may not be available to cluster users, while others must be downloaded and installed by the user.
+Some package managers (e.g. Conda[6]) are programming language agnostic, while others are designed for a particular language (e.g pip[10]).</p>
+<p>A more recent software distribution solution is containerization.
+The end-user downloads a container “image” that includes the software, dependencies, and anything else necessary to run the software.
+Though the imaged software is not typically itself installed, many do require the installation of containerization runtime software.
+When run, the runtime software creates a consistent, isolated sandbox environment, then runs the imaged software inside the sandbox[11].
+This sandbox design makes the images both highly portable (compatible with different computers) and easily shareable (transferable between different computers), which has already led to wide adaptation in bioinformatics[7,12].</p>
 <p>In addition to the ease of installation and use offered by both package managers and containers, such platforms must also meet the biomedical community’s need for compatibility with high performance clusters.
 However, the relative performance of these package managers and containers remains unknown.
 Our review summarizes developing practices across the most common package managers and containers, while discussing the challenges, advantages, and limitations of using them from both the developer and the user perspectives.
@@ -98,6 +104,9 @@ By taking a survey of all the available package managers and container software,
 We also propose principles that can make packaging and containerizing of bioinformatics software more sustainable and reproducible, ultimately increasing the usability of bioinformatics software.</p>
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <h3 id="existing-problems-with-software-distribution-and-installation">Existing problems with software distribution and installation</h3>
+<p>The installation process of bioinformatics research software is typically a multi-step process, starting with the end-user locating and downloading the software.
+Next is the actual installation, during which the end-user must determine what dependencies are missing and resolve them by installing the required software<a href="https://paperpile.com/c/4vBDtY/kjwlC">5</a>.
+Even in cases where the end-user is familiar with this process, they are typically installing on high-performance clusters where they are constrained by user-level permissions that prevent them from following standard installation procedures.</p>
 <ul>
 <li>root access limitations</li>
 <li>reproducibility of findings</li>
@@ -181,7 +190,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 
 </div>
 <h2 class="page_break_before" id="tables">Tables</h2>
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 11%" />
 <col style="width: 39%" />
@@ -229,7 +238,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 </tr>
 <tr class="odd">
 <td style="text-align: left;">conda</td>
-<td style="text-align: left;">https://docs.conda.io/en/latest</td>
+<td style="text-align: left;">https://docs.conda.io/en/latest/</td>
 <td style="text-align: left;">-</td>
 <td style="text-align: left;">package manager</td>
 <td style="text-align: left;">3-Clause BSD</td>
@@ -250,7 +259,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 </tr>
 <tr class="even">
 <td style="text-align: left;">Easybuild</td>
-<td style="text-align: left;">https://easybuilders.github.io/easybuild</td>
+<td style="text-align: left;">https://easybuilders.github.io/easybuild/</td>
 <td style="text-align: left;">Hoste et al, 2012</td>
 <td style="text-align: left;">package manager</td>
 <td style="text-align: left;">GNU GPL 2</td>
@@ -264,7 +273,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 </tr>
 <tr class="even">
 <td style="text-align: left;">GNU Guix</td>
-<td style="text-align: left;">https://www.gnu.org/software/guix</td>
+<td style="text-align: left;">https://guix.gnu.org</td>
 <td style="text-align: left;">Courtès, 2013</td>
 <td style="text-align: left;">package manager</td>
 <td style="text-align: left;">GNU AGPL</td>
@@ -278,7 +287,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 </tr>
 <tr class="even">
 <td style="text-align: left;">pip</td>
-<td style="text-align: left;">https://pypi.org/project/pip</td>
+<td style="text-align: left;">https://pypi.org/project/pip/</td>
 <td style="text-align: left;">-</td>
 <td style="text-align: left;">package manager</td>
 <td style="text-align: left;">MIT</td>
@@ -659,8 +668,8 @@ We also propose principles that can make packaging and containerizing of bioinfo
 </tr>
 </tbody>
 </table>
-<p>*Docker Engine
-**need to find someone with a redhat license who can confirm numbers</p>
+<p>*Docker Engine</p>
+<p>**need to find someone with a redhat license who can confirm numbers</p>
 <table>
 <colgroup>
 <col style="width: 14%" />
@@ -678,7 +687,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 <tr class="odd">
 <td style="text-align: left;">AppImage</td>
 <td style="text-align: left;">AppImageHub</td>
-<td style="text-align: left;">https://appimage.github.io/apps</td>
+<td style="text-align: left;">https://appimage.github.io/apps/</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">APT</td>
@@ -698,7 +707,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 <tr class="odd">
 <td style="text-align: left;">conda</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">https://repo.anaconda.com/pkgs</td>
+<td style="text-align: left;">https://repo.anaconda.com/pkgs/</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">CRAN</td>
@@ -723,7 +732,7 @@ We also propose principles that can make packaging and containerizing of bioinfo
 <tr class="even">
 <td style="text-align: left;">GNU Guix</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">https://guix.gnu.org/packages</td>
+<td style="text-align: left;">https://guix.gnu.org/packages/</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Homebrew</td>

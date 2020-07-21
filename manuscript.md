@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/" />
+  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/" />
+  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a/))
+([permalink](https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/))
 was automatically generated
-from [sbpw/pkg-manager-review@57dbc5f](https://github.com/sbpw/pkg-manager-review/tree/57dbc5f5c185928cea6e59a9f180e8ae0bb5736a)
+from [sbpw/pkg-manager-review@929cc50](https://github.com/sbpw/pkg-manager-review/tree/929cc5052c8d89b2fc1067ca4686d67ffbe7f872)
 on July 21, 2020.
 </em></small>
 
@@ -132,9 +132,16 @@ As the dependence of biomedical researchers on computational software continues 
 Modern software distribution, having already faced user-friendliness issues, is already becoming more reliant on platforms such as package managers[6,7] and containers[8].
 Both promise to simplify software development while increasing the usability and reproducibility of biomedical research[8,9].
 
-Containers serve a similar purpose, in that they provide a mechanism for acquiring new software, but with a different approach.
-Software is downloaded in a container “image,” which can be run on any operating system (e.g. Linux, Windows, etc.).
-Containers are a much more recent concept, so they are not nearly as familiar to software developers as package managers are.
+Package managers first appeared nearly thirty years ago as software developers sought to streamline the entire installation process.
+To install via package manager, the user must only specify the desired software, called a “package;” the download, installation, configuration, and dependencies are all handled by the package manager. 
+Many operating systems have built-in package managers (e.g. APT), which may not be available to cluster users, while others must be downloaded and installed by the user. 
+Some package managers (e.g. Conda[6]) are programming language agnostic, while others are designed for a particular language (e.g pip[10]).
+
+A more recent software distribution solution is containerization.
+The end-user downloads a container “image” that includes the software, dependencies, and anything else necessary to run the software.
+Though the imaged software is not typically itself installed, many do require the installation of containerization runtime software. 
+When run, the runtime software creates a consistent, isolated sandbox environment, then runs the imaged software inside the sandbox[11].
+This sandbox design makes the images both highly portable (compatible with different computers) and easily shareable (transferable between different computers), which has already led to wide adaptation in bioinformatics[7,12].
 
 In addition to the ease of installation and use offered by both package managers and containers, such platforms must also meet the biomedical community’s need for compatibility with high performance clusters.
 However, the  relative performance of these package managers and containers remains unknown.
@@ -146,6 +153,13 @@ We also propose principles that can make packaging and containerizing of bioinfo
 ## Discussion {.page_break_before}
 
 ### Existing problems with software distribution and installation
+
+The installation process of bioinformatics research software is typically a multi-step process, starting with the end-user locating and downloading the software. 
+Next is the actual installation, during which the end-user must determine what dependencies are missing and resolve them by installing the required software[5](https://paperpile.com/c/4vBDtY/kjwlC).
+Even in cases where the end-user is familiar with this process, they are typically installing on high-performance clusters where they are constrained by user-level permissions that prevent them from following standard installation procedures.
+
+
+
 - root access limitations
 - reproducibility of findings
 - version conflicts
@@ -216,25 +230,25 @@ We also propose principles that can make packaging and containerizing of bioinfo
 ## Tables {.page_break_before}
 
 | Distribution System Name | URL | Publication | Type | License |
-| :----------- | :--------------------------------------- | :-------------------- | :--------------- | :------------ |
-| AppImage     | https://appimage.org                     | -                     | containerization | MIT           |
-| APT          | https://wiki.debian.org/Apt              | -                     | package manager  | GNU GPL 2+    |
-| Bioconda     | https://bioconda.github.io               | Grüning et al, 2018   | package manager  | MIT           |
-| Bioconductor | https://www.bioconductor.org             | Gentleman et al, 2004 | package manager  | MIT           |
-| conda        | https://docs.conda.io/en/latest          | -                     | package manager  | 3-Clause BSD  |
-| CRAN         | https://cran.r-project.org/index.html    | -                     | package manager  | GNU GPL       |
-| Docker       | https://www.docker.com                   | -                     | containerization | Apache 2.0    |
-| Easybuild    | https://easybuilders.github.io/easybuild | Hoste et al, 2012     | package manager  | GNU GPL 2     |
-| Flatpak      | https://flatpak.org                      | -                     | containerization | LGPL          |
-| GNU Guix     | https://www.gnu.org/software/guix        | Courtès, 2013         | package manager  | GNU AGPL      |
-| Homebrew     | https://brew.sh                          | -                     | package manager  | 2-Clause BSD  |
-| pip          | https://pypi.org/project/pip             | -                     | package manager  | MIT           |
-| Singularity  | https://sylabs.io                        | -                     | containerization | 3-Clause BSD  |
-| Snap         | https://snapcraft.io                     | -                     | containerization | propriertary  |
-| Spack        | https://spack.io                         | Gamblin et al, 2015   | package manager  | MIT or Apache |
-| Vagrant      | https://www.vagrantup.com                | -                     | virtual machine  | MIT           |
-| yum          | http://yum.baseurl.org                   | -                     | package manager  |               |
-| Zero Install | https://0install.net                     | -                     | package manager  | GNU LGPL 2.1+ | {#tbl:basic-info}
+| :----------- | :---------------------------------------- | :-------------------- | :--------------- | :------------ |
+| AppImage     | https://appimage.org                      | -                     | containerization | MIT           |
+| APT          | https://wiki.debian.org/Apt               | -                     | package manager  | GNU GPL 2+    |
+| Bioconda     | https://bioconda.github.io                | Grüning et al, 2018   | package manager  | MIT           |
+| Bioconductor | https://www.bioconductor.org              | Gentleman et al, 2004 | package manager  | MIT           |
+| conda        | https://docs.conda.io/en/latest/          | -                     | package manager  | 3-Clause BSD  |
+| CRAN         | https://cran.r-project.org/index.html     | -                     | package manager  | GNU GPL       |
+| Docker       | https://www.docker.com                    | -                     | containerization | Apache 2.0    |
+| Easybuild    | https://easybuilders.github.io/easybuild/ | Hoste et al, 2012     | package manager  | GNU GPL 2     |
+| Flatpak      | https://flatpak.org                       | -                     | containerization | LGPL          |
+| GNU Guix     | https://guix.gnu.org                      | Courtès, 2013         | package manager  | GNU AGPL      |
+| Homebrew     | https://brew.sh                           | -                     | package manager  | 2-Clause BSD  |
+| pip          | https://pypi.org/project/pip/             | -                     | package manager  | MIT           |
+| Singularity  | https://sylabs.io                         | -                     | containerization | 3-Clause BSD  |
+| Snap         | https://snapcraft.io                      | -                     | containerization | propriertary  |
+| Spack        | https://spack.io                          | Gamblin et al, 2015   | package manager  | MIT or Apache |
+| Vagrant      | https://www.vagrantup.com                 | -                     | virtual machine  | MIT           |
+| yum          | http://yum.baseurl.org                    | -                     | package manager  |               |
+| Zero Install | https://0install.net                      | -                     | package manager  | GNU LGPL 2.1+ | {#tbl:basic-info}
 
 
 | Distribution System Name | Supported Operating Systems | Supported Languages | Root to Install | Root to Run |
@@ -280,20 +294,21 @@ We also propose principles that can make packaging and containerizing of bioinfo
 | yum**        | 2002-06-08 | 2011-06-28 | 18  | 221  | | |
 | Zero Install | 2005-02-04 | 2020-05-04 | 15  | 145  | | | {#tbl:popularity}
 *Docker Engine
+
 **need to find someone with a redhat license who can confirm numbers 
 
 | Distribution System Name | Official Repository Name | Repository URL | 
 | :----------- | :-------------------------- | :------------------------------------------- |
-| AppImage     | AppImageHub                 | https://appimage.github.io/apps              |
+| AppImage     | AppImageHub                 | https://appimage.github.io/apps/             |
 | APT          | -                           | -                                            |
 | Bioconda     | bioconda channel            | https://github.com/bioconda/bioconda-recipes |
 | Bioconductor | -                           | https://www.bioconductor.org/packages/release/BiocViews.html#___Software |
-| conda        | -                           | https://repo.anaconda.com/pkgs               |
+| conda        | -                           | https://repo.anaconda.com/pkgs/              |
 | CRAN         | -                           | https://cran.r-project.org/web/packages/available_packages_by_name.html |
 | Docker       | Docker Hub                  | https://hub.docker.com                       |
 | Easybuild    |                             |                                              |
 | Flatpak      | Flathub                     | https://flathub.org                          |   
-| GNU Guix     | -                           | https://guix.gnu.org/packages                |
+| GNU Guix     | -                           | https://guix.gnu.org/packages/               |
 | Homebrew     | Homebrew Formulae           | https://formulae.brew.sh                     |
 | pip          | Python Package Index (PyPI) | https://pypi.org                             |
 | Singularity  | Singularity Hub             | https://singularity-hub.org                  |
