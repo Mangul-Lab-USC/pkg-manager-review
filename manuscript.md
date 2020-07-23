@@ -3,7 +3,7 @@ author-meta:
 - Sharon Waymost
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-21'
+date-meta: '2020-07-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
 
-  <meta name="dc.date" content="2020-07-21" />
+  <meta name="dc.date" content="2020-07-23" />
 
-  <meta name="citation_publication_date" content="2020-07-21" />
+  <meta name="citation_publication_date" content="2020-07-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -44,23 +44,23 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0003-1176-5386" />
 
-  <link rel="canonical" href="https://sbpw.github.io/pkg-manager-review/" />
+  <link rel="canonical" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
 
-  <meta property="og:url" content="https://sbpw.github.io/pkg-manager-review/" />
+  <meta property="og:url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
 
-  <meta property="twitter:url" content="https://sbpw.github.io/pkg-manager-review/" />
+  <meta property="twitter:url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
 
-  <meta name="citation_fulltext_html_url" content="https://sbpw.github.io/pkg-manager-review/" />
+  <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
 
-  <meta name="citation_pdf_url" content="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
+  <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="application/pdf" href="https://sbpw.github.io/pkg-manager-review/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,10 +93,10 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://sbpw.github.io/pkg-manager-review/v/929cc5052c8d89b2fc1067ca4686d67ffbe7f872/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/))
 was automatically generated
-from [sbpw/pkg-manager-review@929cc50](https://github.com/sbpw/pkg-manager-review/tree/929cc5052c8d89b2fc1067ca4686d67ffbe7f872)
-on July 21, 2020.
+from [Mangul-Lab-USC/pkg-manager-review@885e5ce](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/885e5ceec0410438a24a889695ee57e9cc39522e)
+on July 23, 2020.
 </em></small>
 
 ## Authors
