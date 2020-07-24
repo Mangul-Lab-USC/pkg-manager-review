@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@885e5ce](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/885e5ceec0410438a24a889695ee57e9cc39522e)
+from [Mangul-Lab-USC/pkg-manager-review@5759e29](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/5759e29135c304c98509714d7bf88dad00321f0a)
 on July 24, 2020.
 </em></small>
 
@@ -181,7 +181,6 @@ Even in cases where the end-user is familiar with this process, they are typical
     - can't install multiple versions of same software
 - containerization
   - definition
-!["Why containers?" by Julia Evans](images/why_containers_comic.jpeg){#fig:why-containers-comic width="5in"}
   - benefits for the developer
     - include specific versions of dependencies
     - known running environment
@@ -205,6 +204,7 @@ Even in cases where the end-user is familiar with this process, they are typical
     - hosting is taken of
   - limitations
     - repo specific restrictions
+
 
 ## Glossary {.page_break_before}
 
