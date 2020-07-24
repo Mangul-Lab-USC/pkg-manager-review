@@ -14,13 +14,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Review of Package Managers for Bioinformatics Software Distribution" />
+  <meta name="dc.title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
 
-  <meta name="citation_title" content="Review of Package Managers for Bioinformatics Software Distribution" />
+  <meta name="citation_title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
 
-  <meta property="og:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
+  <meta property="og:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
 
-  <meta property="twitter:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
+  <meta property="twitter:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
 
   <meta name="dc.date" content="2020-07-24" />
 
@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/4247464c55eb31ee0c1ff6fd5b84989bde6eccfd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/4247464c55eb31ee0c1ff6fd5b84989bde6eccfd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/4247464c55eb31ee0c1ff6fd5b84989bde6eccfd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -83,7 +83,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Review of Package Managers for Bioinformatics Software Distribution
+title: 'Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities'
 ...
 
 
@@ -93,9 +93,9 @@ title: Review of Package Managers for Bioinformatics Software Distribution
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/5759e29135c304c98509714d7bf88dad00321f0a/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/4247464c55eb31ee0c1ff6fd5b84989bde6eccfd/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@5759e29](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/5759e29135c304c98509714d7bf88dad00321f0a)
+from [Mangul-Lab-USC/pkg-manager-review@4247464](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/4247464c55eb31ee0c1ff6fd5b84989bde6eccfd)
 on July 24, 2020.
 </em></small>
 
