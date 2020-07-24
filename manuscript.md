@@ -3,7 +3,7 @@ author-meta:
 - Sharon Waymost
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-23'
+date-meta: '2020-07-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Review of Package Managers for Bioinformatics Software Distribution" />
 
-  <meta name="dc.date" content="2020-07-23" />
+  <meta name="dc.date" content="2020-07-24" />
 
-  <meta name="citation_publication_date" content="2020-07-23" />
+  <meta name="citation_publication_date" content="2020-07-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,7 +96,7 @@ This manuscript
 ([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/885e5ceec0410438a24a889695ee57e9cc39522e/))
 was automatically generated
 from [Mangul-Lab-USC/pkg-manager-review@885e5ce](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/885e5ceec0410438a24a889695ee57e9cc39522e)
-on July 23, 2020.
+on July 24, 2020.
 </em></small>
 
 ## Authors
