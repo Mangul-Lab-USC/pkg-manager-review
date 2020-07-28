@@ -1,19 +1,37 @@
-# Automated scholarly manuscripts on GitHub
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
+# Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Mangul-Lab-USC.github.io/pkg-manager-review/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/Mangul-Lab-USC/pkg-manager-review/workflows/Manubot/badge.svg)](https://github.com/Mangul-Lab-USC/pkg-manager-review/actions)
-[![Travis Build Status](https://travis-ci.com/Mangul-Lab-USC/pkg-manager-review.svg?branch=master)](https://travis-ci.com/Mangul-Lab-USC/pkg-manager-review)
-<!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## Manuscript description
+## How to edit and comment
 
-<!-- usage note: edit this section. -->
+This manuscript is automatically generated from markdown files and other inputs located in the [`content`](content) directory. The filenames indicate the section contained within and the order in which they are added to the manuscript.
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+### To edit a file
+
+1. Select the file by clicking on its file name in the [`content`](content) directory.
+2. Click on the edit button at the top right of the file contents:\
+![edit button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/edit_button.png)\
+If this is your first edit, you may see a blue warning box:\
+![fork warning](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/fork_warning.png)
+3. Make your changes directly in the file.\
+View your changes prior to submission by clicking on the "Preview changes" tab:\
+![preview changes tab location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/preview_changes_tab.png)
+4. When finished editing, scroll to the bottom of the page and enter a brief description. Click "Propose changes" button:\
+![propose changes button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/propose changes_button.png)
+5. Click "Create pull request button" to submit edits:\
+![create pull request button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/create_pull_request_button.png)\
+Note: If you plan on editing multiple files, you can skip this step until all files are edited, then submit all files at once.
+
+### To comment
+
+1. Click on the "Issues" tab to open the Issues page:\
+![issues tab location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/issues_tab.png)
+2. Click on the "New issue" button:\
+![new issue button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/new_issue_button.png)
+3. Enter a brief title and comment, then click "Submit new issue" button:\
+![submit new issue button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/submit_new_issue.png)
 
 ## Manubot
 
