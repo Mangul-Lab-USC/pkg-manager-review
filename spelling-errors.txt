@@ -2,7 +2,7 @@ Acknowledgements
 AGPL
 AppImage
 AppImageHub
-Bioconda
+bioconda
 Bioconductor
 bioinformatics
 conda

@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,13 +93,13 @@ title: 'Packaging and containerizing of bioinformatics software: advances, chall
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@26e99c2](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/26e99c2eb4c621da587945b674ca3a0434a610df)
+from [Mangul-Lab-USC/pkg-manager-review@b77b9f7](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/b77b9f7e2d213b6f82fe4459bf4c047870b199ea)
 on July 29, 2020.
 </em></small>
 
-## Authors
+## Unsorted list of authors
 
 
 
