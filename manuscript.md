@@ -1,78 +1,22 @@
 ---
 author-meta:
 - Sharon Waymost
+- Serghei Mangul
+- Neha Rajkumar
+- Ram Ayyala
+- Heng Li
+- Nathan LaPierre
+- "Andr\xE9 Santos"
+- Titus Brown
+- Casey S. Greene
+- Brendan Lawlor
+- Qiyang Hu
+- Jaqueline J. Brito
+- Thiago Mosqueiro
 bibliography:
 - content/manual-references.json
 date-meta: '2020-07-29'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-
-  <meta name="citation_title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-
-  <meta property="og:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-
-  <meta property="twitter:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-
-  <meta name="dc.date" content="2020-07-29" />
-
-  <meta name="citation_publication_date" content="2020-07-29" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <meta name="citation_author" content="Sharon Waymost" />
-
-  <meta name="citation_author_institution" content="CS Dept, UCLA" />
-
-  <meta name="citation_author_orcid" content="0000-0003-1176-5386" />
-
-  <link rel="canonical" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
-
-  <meta property="og:url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
-
-  <meta property="twitter:url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
-
-  <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
-
-  <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/" />
-
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"citation_title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"og:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"twitter:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"dc.date\" content=\"2020-07-29\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-29\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Sharon Waymost\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1176-5386\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"citation_author\" content=\"Neha Rajkumar\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Ram Ayyala\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, School of Life Sciences, University of California Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Heng Li\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Nathan LaPierre\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Andr\xE9 Santos\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Brendan Lawlor\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Qiyang Hu\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Thiago Mosqueiro\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<link rel=\"canonical\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"og:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"twitter:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/c3bc36374273c34afeed68d29849d1fca8510961/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/c3bc36374273c34afeed68d29849d1fca8510961/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/c3bc36374273c34afeed68d29849d1fca8510961/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - package managers
 - containerization
@@ -93,9 +37,9 @@ title: 'Packaging and containerizing of bioinformatics software: advances, chall
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/b77b9f7e2d213b6f82fe4459bf4c047870b199ea/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/c3bc36374273c34afeed68d29849d1fca8510961/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@b77b9f7](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/b77b9f7e2d213b6f82fe4459bf4c047870b199ea)
+from [Mangul-Lab-USC/pkg-manager-review@c3bc363](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/c3bc36374273c34afeed68d29849d1fca8510961)
 on July 29, 2020.
 </em></small>
 
@@ -109,7 +53,79 @@ on July 29, 2020.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [sbpw](https://github.com/sbpw)<br>
   <small>
-     CS Dept, UCLA
+     Computer Science Department, Samueli School of Engineering, University of California, Los Angeles
+  </small>
+
++ **Serghei Mangul**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-4770-3443](https://orcid.org/0000-0003-4770-3443)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [smangul1](https://github.com/smangul1)<br>
+  <small>
+     Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
+  </small>
+
++ **Neha Rajkumar**<br><br>
+  <small>
+     Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles
+  </small>
+
++ **Ram Ayyala**<br><br>
+  <small>
+     Department of Neuroscience, School of Life Sciences, University of California Los Angeles
+  </small>
+
++ **Heng Li**<br><br>
+  <small>
+     None
+  </small>
+
++ **Nathan LaPierre**<br><br>
+  <small>
+     None
+  </small>
+
++ **André Santos**<br><br>
+  <small>
+     None
+  </small>
+
++ **Titus Brown**<br><br>
+  <small>
+     University of California, Davis
+  </small>
+
++ **Casey S. Greene**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Childhood Cancer Data Lab
+  </small>
+
++ **Brendan Lawlor**<br><br>
+  <small>
+     None
+  </small>
+
++ **Qiyang Hu**<br><br>
+  <small>
+     None
+  </small>
+
++ **Jaqueline J. Brito**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-7158-3253](https://orcid.org/0000-0002-7158-3253)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [jaquejbrito](https://github.com/jaquejbrito)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [jaquejbrito](https://twitter.com/jaquejbrito)<br>
+  <small>
+     Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
+  </small>
+
++ **Thiago Mosqueiro**<br><br>
+  <small>
+     None
   </small>
 
 
