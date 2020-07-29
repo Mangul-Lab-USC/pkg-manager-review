@@ -6,7 +6,9 @@
 
 ## How to edit and comment
 
-This manuscript is automatically generated from markdown files and other inputs located in the [`content`](content) directory. The filenames indicate the section contained within and the order in which they are added to the manuscript.
+This manuscript is automatically generated from markdown files and other inputs located in the [`content`](content) directory. The filenames indicate the section contained within and the order in which they are added to the manuscript. The author metadata is in [`metadata.yaml`](content/metadata.yaml).
+
+[Getting started video](https://manubot.org/docs/getting-started.html)
 
 ### To edit a file
 
