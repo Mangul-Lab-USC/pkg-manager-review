@@ -7,10 +7,105 @@ keywords:
   - docker
 lang: en-US
 authors:
-  - github: sbpw
-    name: Sharon Waymost
+  - name: Sharon Waymost
     initials: SBPW
-    orcid: 0000-0003-1176-5386
     email: sbprice@gmail.com
+    orcid: 0000-0003-1176-5386
+    github: sbpw
+    twitter:
     affiliations:
-      - CS Dept, UCLA
+      - Computer Science Department, Samueli School of Engineering, University of California, Los Angeles
+  - name: Serghei Mangul
+    initials: SM
+    email: serghei.mangul@gmail.com
+    orcid: 0000-0003-4770-3443
+    github: smangul1
+    affiliations:
+      -   Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
+  - name: Neha Rajkumar
+    initials:
+    email: 
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles
+  - name: Ram Ayyala
+    initials:
+    email: 
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - Department of Neuroscience, School of Life Sciences, University of California Los Angeles
+  - name: Heng Li
+    initials:
+    email: 
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - 
+  - name: Nathan LaPierre
+    initials:
+    email: 
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - 
+  - name: André Santos
+    initials:
+    email: 
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - 
+  - name: Titus Brown
+    initials:
+    email:
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - University of California, Davis
+  - name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+      - Childhood Cancer Data Lab
+  - name: Brendan Lawlor
+    initials:
+    email:
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - 
+  - name: Qiyang Hu
+    initials:
+    email:
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - 
+  - name: Jaqueline J. Brito
+    initials: JJB
+    email: britoj@usc.edu
+    orcid: 0000-0002-7158-3253
+    github: jaquejbrito
+    twitter: jaquejbrito
+    affiliations:
+      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
+- github: 
+    name: Thiago Mosqueiro
+    initials:
+    email: 
+    orcid: 
+    github:
+    twitter:
+    affiliations:
+      - 
