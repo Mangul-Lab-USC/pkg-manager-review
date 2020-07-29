@@ -3,7 +3,7 @@ author-meta:
 - Sharon Waymost
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-28'
+date-meta: '2020-07-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
 
-  <meta name="dc.date" content="2020-07-28" />
+  <meta name="dc.date" content="2020-07-29" />
 
-  <meta name="citation_publication_date" content="2020-07-28" />
+  <meta name="citation_publication_date" content="2020-07-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/93c5d8d7fb9ac28e6095f2fbbb1ba193fa2bd44b/" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/93c5d8d7fb9ac28e6095f2fbbb1ba193fa2bd44b/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/93c5d8d7fb9ac28e6095f2fbbb1ba193fa2bd44b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,10 +93,10 @@ title: 'Packaging and containerizing of bioinformatics software: advances, chall
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/93c5d8d7fb9ac28e6095f2fbbb1ba193fa2bd44b/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/26e99c2eb4c621da587945b674ca3a0434a610df/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@93c5d8d](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/93c5d8d7fb9ac28e6095f2fbbb1ba193fa2bd44b)
-on July 28, 2020.
+from [Mangul-Lab-USC/pkg-manager-review@26e99c2](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/26e99c2eb4c621da587945b674ca3a0434a610df)
+on July 29, 2020.
 </em></small>
 
 ## Authors
