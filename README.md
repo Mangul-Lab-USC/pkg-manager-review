@@ -31,7 +31,7 @@ Note: If you plan on editing multiple files, you can skip this step until all fi
 2. Click on the "New issue" button:\
 ![new issue button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/new_issue_button.png)
 3. Enter a brief title and comment, then click "Submit new issue" button:\
-![submit new issue button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/submit_new_issue.png)
+![submit new issue button location](https://mangul-lab-usc.github.io/pkg-manager-review/images/readme/submit_new_issue_button.png)
 
 ## Manubot
 
