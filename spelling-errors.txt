@@ -4,7 +4,7 @@ André
 AppImage
 AppImageHub
 Ayyala
-bioconda
+Bioconda
 Bioconductor
 Bioengineering
 bioinformatics
