@@ -10,10 +10,10 @@ content/02.introduction.md:29:bioinformatics
 content/02.introduction.md:29:bioinformatics
 content/03.discussion.md:5:bioinformatics
 content/03.discussion.md:12:reproducibility
-content/03.discussion.md:36:reproducibility
-content/03.discussion.md:40:runtime
-content/03.discussion.md:46:runtime
-content/03.discussion.md:54:repo
+content/03.discussion.md:38:reproducibility
+content/03.discussion.md:42:runtime
+content/03.discussion.md:48:runtime
+content/03.discussion.md:56:repo
 content/80.acknowledgements.md:1:Acknowledgements
 content/95.tables.md:5:appimage
 content/95.tables.md:5:AppImage
