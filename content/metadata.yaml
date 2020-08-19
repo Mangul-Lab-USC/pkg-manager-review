@@ -78,12 +78,12 @@ authors:
       - Childhood Cancer Data Lab
   - name: Brendan Lawlor
     initials:
-    email:
-    orcid: 
-    github:
-    twitter:
-    affiliations:
-      - 
+    email: brendan.lawlor@gmail.com
+    orcid: 0000-0002-2250-0669
+    github: blawlor
+    twitter: blawlor
+    affiliations: 
+      - Department of Computer Science, Cork Institute of Technology, Cork, Ireland.
   - name: Qiyang Hu
     initials:
     email:
