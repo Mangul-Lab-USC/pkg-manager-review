@@ -3,8 +3,9 @@ AGPL
 André
 AppImage
 AppImageHub
+approrpriate
 Ayyala
-Bioconda
+bioconda
 Bioconductor
 Bioengineering
 bioinformatics
