@@ -8,6 +8,7 @@ bioconda
 Bioconductor
 Bioengineering
 bioinformatics
+blawlor
 Brito
 conda
 Courtès
