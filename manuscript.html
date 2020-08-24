@@ -105,9 +105,9 @@
   <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/e650028e47fd164c660f4998b1a04a0bb4bb10a4/" />
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/e650028e47fd164c660f4998b1a04a0bb4bb10a4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/e650028e47fd164c660f4998b1a04a0bb4bb10a4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ad484a95ded987987879334dc9a8ba8733a16d42/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ad484a95ded987987879334dc9a8ba8733a16d42/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ad484a95ded987987879334dc9a8ba8733a16d42/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -121,9 +121,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/e650028e47fd164c660f4998b1a04a0bb4bb10a4/">permalink</a>)
+(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ad484a95ded987987879334dc9a8ba8733a16d42/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/e650028e47fd164c660f4998b1a04a0bb4bb10a4">Mangul-Lab-USC/pkg-manager-review@e650028</a>
+from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/ad484a95ded987987879334dc9a8ba8733a16d42">Mangul-Lab-USC/pkg-manager-review@ad484a9</a>
 on August 24, 2020.
 </em></small></p>
 <h2 id="unsorted-list-of-authors">Unsorted list of authors</h2>
@@ -251,49 +251,85 @@ Even in cases where the end-user is familiar with this process, they are typical
 <img src="images/package_schematic.png" alt="" /><figcaption><span>Figure 1:</span> <strong>Schematic showing standard package contents.</strong></figcaption>
 </figure>
 </div>
-<p><img src="images/package_manager_usage.png" id="fig:package-manager-usage" alt="Standard workflow for installing software via a package manager." />
-- benefits for the developer
-- mature technology - higher degree of familiarity
-- allows dependency specification (including versions)
--limitations for the developer
-- can’t always use to install missing dependencies for end-user
-- benefits for the end-user
-- package size is minimal (dependencies aren’t duplicated)
-- installs missing dependencies
-- limitations for the end-user
-- not always accessible (unless admin user)
-- can’t install multiple versions of same software
-- containerization
-- definition</p>
-<div id="fig:containerization-schematics" class="fignos">
+<div id="fig:package-manager-usage" class="fignos">
 <figure>
-<img src="images/containerization_schematics.png" style="width:6in" alt="" /><figcaption><span>Figure 2:</span> <strong>Schematic showing standard containerization objects.</strong></figcaption>
+<img src="images/package_manager_usage.png" style="width:6in" alt="" /><figcaption><span>Figure 2:</span> <strong>Standard workflow for installing software via a package manager.</strong></figcaption>
 </figure>
 </div>
-<p><img src="images/container_usage.png" id="fig:container_usage" style="width:6in" alt="Running containerized software" />
-- benefits for the developer
-- include specific versions of dependencies
-- known running environment
-- fewer test variables
-- reproducibility of results
-- limitations for the developer
-- learn a new system instead of focusing on research
-- benefits for the end-user
-- no installation (except possible runtime)
-- no dependency issues
-- sandbox provides computer system security
-- limitations for the end-user
-- container size
-- duplication of dependencies
-- root access requirement to install runtime
-- configuration in cluster
-- centralized repositories
-- definition
-- benefits
-- known download site
-- hosting is taken of
-- limitations
-- repo specific restrictions</p>
+<ul>
+<li>benefits for the developer
+<ul>
+<li>mature technology - higher degree of familiarity</li>
+<li>allows dependency specification (including versions)
+-limitations for the developer</li>
+<li>can’t always use to install missing dependencies for end-user</li>
+</ul></li>
+<li>benefits for the end-user
+<ul>
+<li>package size is minimal (dependencies aren’t duplicated)</li>
+<li>installs missing dependencies</li>
+</ul></li>
+<li>limitations for the end-user
+<ul>
+<li>not always accessible (unless admin user)</li>
+<li>can’t install multiple versions of same software</li>
+</ul></li>
+<li>containerization
+<ul>
+<li>definition</li>
+</ul></li>
+</ul>
+<div id="fig:containerization-schematics" class="fignos">
+<figure>
+<img src="images/containerization_schematics.png" style="width:6in" alt="" /><figcaption><span>Figure 3:</span> <strong>Schematic showing standard containerization objects.</strong></figcaption>
+</figure>
+</div>
+<div id="fig:container_usage" class="fignos">
+<figure>
+<img src="images/container_usage.png" style="width:6in" alt="" /><figcaption><span>Figure 4:</span> <strong>Running containerized software</strong></figcaption>
+</figure>
+</div>
+<ul>
+<li>benefits for the developer
+<ul>
+<li>include specific versions of dependencies</li>
+<li>known running environment
+<ul>
+<li>fewer test variables</li>
+<li>reproducibility of results</li>
+</ul></li>
+</ul></li>
+<li>limitations for the developer
+<ul>
+<li>learn a new system instead of focusing on research</li>
+</ul></li>
+<li>benefits for the end-user
+<ul>
+<li>no installation (except possible runtime)</li>
+<li>no dependency issues</li>
+<li>sandbox provides computer system security</li>
+</ul></li>
+<li>limitations for the end-user
+<ul>
+<li>container size</li>
+<li>duplication of dependencies</li>
+<li>root access requirement to install runtime</li>
+<li>configuration in cluster</li>
+</ul></li>
+<li>centralized repositories
+<ul>
+<li>definition</li>
+<li>benefits
+<ul>
+<li>known download site</li>
+<li>hosting is taken of</li>
+</ul></li>
+<li>limitations
+<ul>
+<li>repo specific restrictions</li>
+</ul></li>
+</ul></li>
+</ul>
 <h2 class="page_break_before" id="glossary">Glossary</h2>
 <h2 class="page_break_before" id="acknowledgements">Acknowledgements</h2>
 <h2 class="page_break_before" id="author-contributions">Author Contributions</h2>
