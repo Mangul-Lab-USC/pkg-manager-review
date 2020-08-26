@@ -17,7 +17,7 @@
   <meta name="author" content="Qiyang Hu" />
   <meta name="author" content="Jaqueline J. Brito" />
   <meta name="author" content="Thiago Mosqueiro" />
-  <meta name="dcterms.date" content="2020-08-24" />
+  <meta name="dcterms.date" content="2020-08-26" />
   <meta name="keywords" content="package managers, containerization, distribution, docker" />
   <title>Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities</title>
   <style>
@@ -40,8 +40,8 @@
   <meta name="citation_title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
   <meta property="og:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
   <meta property="twitter:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-  <meta name="dc.date" content="2020-08-24" />
-  <meta name="citation_publication_date" content="2020-08-24" />
+  <meta name="dc.date" content="2020-08-26" />
+  <meta name="citation_publication_date" content="2020-08-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -105,9 +105,9 @@
   <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/2f347f7aea9cf1309dc80d6a92a1c31fb5d84be6/" />
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/2f347f7aea9cf1309dc80d6a92a1c31fb5d84be6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/2f347f7aea9cf1309dc80d6a92a1c31fb5d84be6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/78e3a0254aef325deea971db42da5f4881423f56/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/78e3a0254aef325deea971db42da5f4881423f56/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/78e3a0254aef325deea971db42da5f4881423f56/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -121,10 +121,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/2f347f7aea9cf1309dc80d6a92a1c31fb5d84be6/">permalink</a>)
+(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/78e3a0254aef325deea971db42da5f4881423f56/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/2f347f7aea9cf1309dc80d6a92a1c31fb5d84be6">Mangul-Lab-USC/pkg-manager-review@2f347f7</a>
-on August 24, 2020.
+from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/78e3a0254aef325deea971db42da5f4881423f56">Mangul-Lab-USC/pkg-manager-review@78e3a02</a>
+on August 26, 2020.
 </em></small></p>
 <h2 id="unsorted-list-of-authors">Unsorted list of authors</h2>
 <ul>
@@ -240,18 +240,21 @@ Even in cases where the end-user is familiar with this process, they are typical
 <li>dependency resolution</li>
 </ul>
 <h3 id="definitions-and-explanations-of-distribution-system-types">Definitions and explanations of distribution system types</h3>
-<ul>
-<li>package managers
-<ul>
-<li>definition</li>
-</ul></li>
-</ul>
+<h4 id="package-managers">Package Managers</h4>
+<p>Package managers first appeared nearly thirty years ago as software developers sought to automate the entire software installation process.
+Each piece of software is packaged into a standard format called a package.
+While package managers use different package formats, all formats have the same basic structure, as shown in Figure <a href="#fig:package-schematic">1</a>.</p>
 <div id="fig:package-schematic" class="fignos">
 <figure>
 <img src="images/package_schematic.png" alt="" /><figcaption><span>Figure 1:</span> <strong>Schematic showing standard package contents.</strong>
 Though the exact contents varies between different package formats, all include the software and relevant metadata necessary to complete installation.</figcaption>
 </figure>
 </div>
+<p>The metadata gives the package manager the necessary information to install the packaged software.</p>
+<p>To use a package manager, a user instructs the package manager to install software, then the package manager performs all the necessary steps to install the software as shown in Figure <a href="#fig:package-manager-usage">2</a>.
+Assuming the software is not already installed, the package manager retrieves the appropriate package from the repository, a server that stores all of the available packages.
+Then the package manager uses the package’s metadata to determine what it needs to do to complete installation.
+For most packages, this includes verifying the installation of all dependencies, which are other pieces of software that must be installed prior to the initial software being installed.</p>
 <div id="fig:package-manager-usage" class="fignos">
 <figure>
 <img src="images/package_manager_usage.png" style="width:6in" alt="" /><figcaption><span>Figure 2:</span> <strong>Standard workflow for installing software via a package manager.</strong>
@@ -259,6 +262,16 @@ The user, usually an admin, asks the package manager to install a specific piece
 </figcaption>
 </figure>
 </div>
+<p>The package manager verifies each dependency by confirming that the dependency is already installed or installing the dependency if it is missing.
+For missing dependencies, the package manager retrieves the dependency’s package from the repository and starts the installation procedure for that package.
+Once all the dependencies are installed, the initially requested software is installed.
+However, the package manager often goes through several iterations of this process because every dependency can have it’s own list of dependencies, in which case each of the dependency’s dependencies must be verified through the same process.</p>
+<p>In most cases, the package manager is able to install all of the missing dependencies, but there are two relatively common problems that a package manager cannot overcome.
+The first is circular dependencies, which occurs when software A has a dependency on software B and software B has a dependency on software A.
+The package manager cannot install A without installing B first, but B cannot be installed without installing A first.
+The second is conflicting versions, which occurs when software A and software B have the same dependency, but require different versions.
+Since only one version of any software can be installed at a time, either A or B will not be able to have the correct version of the dependency.</p>
+<p>Some package managers are built-into the operating systems (e.g. APT), while others must be installed by users. Some package managers (e.g. Conda6) are programming language agnostic, while others are designed for a particular language (e.g pip10).</p>
 <ul>
 <li>benefits for the developer
 <ul>
