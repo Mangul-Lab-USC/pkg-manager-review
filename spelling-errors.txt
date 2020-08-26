@@ -5,10 +5,11 @@ AppImage
 AppImageHub
 approrpriate
 Ayyala
-bioconda
+Bioconda
 Bioconductor
 Bioengineering
 bioinformatics
+Biotools
 blawlor
 Brito
 conda
@@ -22,6 +23,7 @@ genomic
 GPL
 Grüning
 Guix
+heatmap
 Heng
 Homebrew
 Hoste
@@ -37,6 +39,7 @@ Mosqueiro
 Neha
 Neuroscience
 omics
+omicsX
 propriertary
 PyPI
 Qiyang

@@ -15,6 +15,12 @@ content/03.discussion.md:80:reproducibility
 content/03.discussion.md:84:runtime
 content/03.discussion.md:90:runtime
 content/03.discussion.md:98:repo
+content/03.discussion.md:113:heatmap
+content/03.discussion.md:114:heatmap
+content/03.discussion.md:117:Biotools
+content/03.discussion.md:118:biotools
+content/03.discussion.md:121:omicsX
+content/03.discussion.md:122:omicsX
 content/80.acknowledgements.md:1:Acknowledgements
 content/95.tables.md:5:appimage
 content/95.tables.md:5:AppImage
