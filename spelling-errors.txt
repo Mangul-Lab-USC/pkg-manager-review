@@ -5,7 +5,7 @@ AppImage
 AppImageHub
 approrpriate
 Ayyala
-Bioconda
+bioconda
 Bioconductor
 Bioengineering
 bioinformatics
@@ -15,6 +15,7 @@ Brito
 conda
 Courtès
 CRAN
+depedencies
 Easybuild
 Flathub
 Flatpak
@@ -54,6 +55,7 @@ Serghei
 smangul
 Snapcraft
 snapd
+sofware
 Spack
 Thiago
 Translational

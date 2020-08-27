@@ -17,7 +17,7 @@
   <meta name="author" content="Qiyang Hu" />
   <meta name="author" content="Jaqueline J. Brito" />
   <meta name="author" content="Thiago Mosqueiro" />
-  <meta name="dcterms.date" content="2020-08-26" />
+  <meta name="dcterms.date" content="2020-08-27" />
   <meta name="keywords" content="package managers, containerization, distribution, docker" />
   <title>Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities</title>
   <style>
@@ -40,8 +40,8 @@
   <meta name="citation_title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
   <meta property="og:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
   <meta property="twitter:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-  <meta name="dc.date" content="2020-08-26" />
-  <meta name="citation_publication_date" content="2020-08-26" />
+  <meta name="dc.date" content="2020-08-27" />
+  <meta name="citation_publication_date" content="2020-08-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -105,9 +105,9 @@
   <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/9613913ec9b81468df7f665bbca20f7341fe3a31/" />
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/9613913ec9b81468df7f665bbca20f7341fe3a31/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/9613913ec9b81468df7f665bbca20f7341fe3a31/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/68d83fd330a3c3a0328a924b302d08f3d218ce4e/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/68d83fd330a3c3a0328a924b302d08f3d218ce4e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/68d83fd330a3c3a0328a924b302d08f3d218ce4e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -121,10 +121,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/9613913ec9b81468df7f665bbca20f7341fe3a31/">permalink</a>)
+(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/68d83fd330a3c3a0328a924b302d08f3d218ce4e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/9613913ec9b81468df7f665bbca20f7341fe3a31">Mangul-Lab-USC/pkg-manager-review@9613913</a>
-on August 26, 2020.
+from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/68d83fd330a3c3a0328a924b302d08f3d218ce4e">Mangul-Lab-USC/pkg-manager-review@68d83fd</a>
+on August 27, 2020.
 </em></small></p>
 <h2 id="unsorted-list-of-authors">Unsorted list of authors</h2>
 <ul>
@@ -241,9 +241,11 @@ Even in cases where the end-user is familiar with this process, they are typical
 </ul>
 <h3 id="definitions-and-explanations-of-distribution-system-types">Definitions and explanations of distribution system types</h3>
 <h4 id="package-managers">Package Managers</h4>
-<p>Package managers first appeared nearly thirty years ago as software developers sought to automate the entire software installation process.
-Each piece of software is packaged into a standard format called a package.
-While package managers use different package formats, all formats have the same basic structure, as shown in Figure <a href="#fig:package-schematic">1</a>.</p>
+<p>Package managers appeared nearly thirty years ago as software developers sought to automate and standardize the software installation process.
+The earliest package managers (e.g. APT and RPM) were built into Linux operating systems and lacked now common features like dependency resolution.
+Modern package managers are available for all major operating systems, with both integrated and user-installed options available.
+Some are package managers are limited to software written in a specific programming language (e.g. pip distributes software written in Perl), while others are limited to sofware with a particular purpose (e.g. Bioconda distributes omics software).</p>
+<p>Every package managers uses its own package format, which follows the general structure shown in Figure <a href="#fig:package-schematic">1</a>.</p>
 <div id="fig:package-schematic" class="fignos">
 <figure>
 <img src="images/package_schematic.png" alt="" /><figcaption><span>Figure 1:</span> <strong>Schematic showing standard package contents.</strong>
@@ -266,12 +268,12 @@ The user, usually an admin, asks the package manager to install a specific piece
 For missing dependencies, the package manager retrieves the dependency’s package from the repository and starts the installation procedure for that package.
 Once all the dependencies are installed, the initially requested software is installed.
 However, the package manager often goes through several iterations of this process because every dependency can have it’s own list of dependencies, in which case each of the dependency’s dependencies must be verified through the same process.</p>
-<p>In most cases, the package manager is able to install all of the missing dependencies, but there are two relatively common problems that a package manager cannot overcome.
+<p>In most cases, a package manager is able to install all of the missing dependencies, but there are two relatively common problems that a package manager cannot overcome.
 The first is circular dependencies, which occurs when software A has a dependency on software B and software B has a dependency on software A.
-The package manager cannot install A without installing B first, but B cannot be installed without installing A first.
+A package manager cannot install A without installing B first, but B cannot be installed without installing A first.
 The second is conflicting versions, which occurs when software A and software B have the same dependency, but require different versions.
-Since only one version of any software can be installed at a time, either A or B will not be able to have the correct version of the dependency.</p>
-<p>Some package managers are built-into the operating systems (e.g. APT), while others must be installed by users. Some package managers (e.g. Conda6) are programming language agnostic, while others are designed for a particular language (e.g pip10).</p>
+Package managers only allow one version of software to be installed at a time, preventing both A and B from having their depedencies met simultaneously.</p>
+<p>Administrators often block users from installing software to prevent unwanted changes to both the operating system and existing sofware. This includes blocking access to package managers built into the operating system, as well as preventing users from installing their own.</p>
 <ul>
 <li>benefits for the developer
 <ul>
