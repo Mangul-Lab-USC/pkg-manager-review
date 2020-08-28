@@ -94,7 +94,7 @@ content/90.references.md:10:BioContainers
 content/90.references.md:11:cran
 content/90.references.md:11:CRAN
 content/90.references.md:13:easybuild
-content/90.references.md:13:Easybuild
+content/90.references.md:13:EasyBuild
 content/90.references.md:14:flathub
 content/90.references.md:14:Flatpack
 content/90.references.md:15:guix

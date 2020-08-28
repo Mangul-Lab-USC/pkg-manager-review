@@ -6,7 +6,7 @@ AppImageHub
 approrpriate
 Availablity
 Ayyala
-Bioconda
+bioconda
 Bioconda’s
 Bioconductor
 Biocontainers
@@ -19,7 +19,7 @@ Courtès
 CRAN
 depedencies
 desc
-Easybuild
+EasyBuild
 Flathub
 Flatpack
 Flatpak
