@@ -5,7 +5,7 @@ AppImage
 AppImageHub
 approrpriate
 Ayyala
-bioconda
+Bioconda
 Bioconductor
 Bioengineering
 bioinformatics
