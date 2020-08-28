@@ -14,12 +14,12 @@ Bioengineering
 bioinformatics
 blawlor
 Brito
-Conda
+conda
 Courtès
 CRAN
 depedencies
 desc
-EasyBuild
+Easybuild
 Flathub
 Flatpack
 Flatpak

@@ -96,7 +96,7 @@ content/90.references.md:11:CRAN
 content/90.references.md:13:easybuild
 content/90.references.md:13:EasyBuild
 content/90.references.md:14:flathub
-content/90.references.md:14:Flatpack
+content/90.references.md:14:Flatpak
 content/90.references.md:15:guix
 content/90.references.md:16:omicX
 content/90.references.md:17:pypi
