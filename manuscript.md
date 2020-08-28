@@ -16,7 +16,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-08-28'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"citation_title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"og:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"twitter:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"dc.date\" content=\"2020-08-28\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-28\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Sharon Waymost\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1176-5386\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"citation_author\" content=\"Neha Rajkumar\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Ram Ayyala\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, School of Life Sciences, University of California Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Heng Li\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Nathan LaPierre\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Andr\xE9 Santos\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Brendan Lawlor\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, Cork Institute of Technology, Cork, Ireland.\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2250-0669\" />\n<meta name=\"twitter:creator\" content=\"@blawlor\" />\n<meta name=\"citation_author\" content=\"Qiyang Hu\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Thiago Mosqueiro\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<link rel=\"canonical\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"og:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"twitter:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/6dd528425289a3134fc9aa2c62068841513d1323/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/6dd528425289a3134fc9aa2c62068841513d1323/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/6dd528425289a3134fc9aa2c62068841513d1323/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"citation_title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"og:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"twitter:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"dc.date\" content=\"2020-08-28\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-28\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Sharon Waymost\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1176-5386\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"citation_author\" content=\"Neha Rajkumar\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Ram Ayyala\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, School of Life Sciences, University of California Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Heng Li\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Nathan LaPierre\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Andr\xE9 Santos\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Brendan Lawlor\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, Cork Institute of Technology, Cork, Ireland.\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2250-0669\" />\n<meta name=\"twitter:creator\" content=\"@blawlor\" />\n<meta name=\"citation_author\" content=\"Qiyang Hu\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Thiago Mosqueiro\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<link rel=\"canonical\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"og:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"twitter:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/dbb17db99a45a56774e062af3c035f2db611b1a1/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/dbb17db99a45a56774e062af3c035f2db611b1a1/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/dbb17db99a45a56774e062af3c035f2db611b1a1/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - package managers
 - containerization
@@ -37,9 +37,9 @@ title: 'Packaging and containerizing of bioinformatics software: advances, chall
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/6dd528425289a3134fc9aa2c62068841513d1323/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/dbb17db99a45a56774e062af3c035f2db611b1a1/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@6dd5284](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/6dd528425289a3134fc9aa2c62068841513d1323)
+from [Mangul-Lab-USC/pkg-manager-review@dbb17db](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/dbb17db99a45a56774e062af3c035f2db611b1a1)
 on August 28, 2020.
 </em></small>
 
@@ -278,51 +278,71 @@ Administrators often block users from installing software to prevent unwanted ch
 
 ![
 **Relative popularity of package managers.**
-Google Trends [@https://trends.google.com/trends/] was used to assess the relative average popularity of each package manager. 
+Google Trends @https://trends.google.com/trends/ was used to assess the relative average popularity of each package manager. 
 Package managers were omitted when Google Trends did not have enough data to return a result. 
-The method detailed in "How do you compare large number of items in Google Trends?" [@https://digitaljobstobedone.com/2017/07/10/how-do-you-compare-large-numbers-of-items-in-google-trends/] was used to overcome Google Trends' limitation of five search terms. 
+The method detailed in "How do you compare large number of items in Google Trends?" @https://digitaljobstobedone.com/2017/07/10/how-do-you-compare-large-numbers-of-items-in-google-trends/ was used to overcome Google Trends' limitation of five search terms. 
 ](images/trends.png){#fig:trends width="6in"}
 
 ![
 **Usage of package managers in academia based on citations.**
-For package managers introduced with a major publication, the number of citations for their publication was found via Google Scholar [@https://scholar.google.com/] and recorded.
+For package managers introduced with a major publication, the number of citations for their publication was found via Google Scholar @https://scholar.google.com/ and recorded.
 Package managers without a major publication were excluded.
 ](images/citations.png){#fig:citations width="6in"}
 
 ![
 **Usage of package managers in academia based on Google Scholar Results.**
-Each package manager's name was used as a search term on Google Scholar [@https://scholar.google.com/] and the number of results was recorded.
+Each package manager's name was used as a search term on Google Scholar @https://scholar.google.com/ and the number of results was recorded.
 Package manager names that returned results for things other than the package manager were omitted.
 ](images/google_scholar_results.png){#fig:google-scholar width="6in"}
 
 ![
-**Tools heatmap**
-For AppImage, Bioconda, Bioconductor, CRAN, Docker, Easybuild, Flatpack, GNU Guix, omicX, pip, Singularity, Snap, Spack, Vagrant, and Zero Install, 
-For APT, Biocontainers, Conda, Homebrew, 
-](images/tools_heatmap.png){#fig:tools-heatmap width="6in"}
-
-![
-**Overlap in tools**
-](images/overlap_in_tools.png){#fig:overlap-in-tools width="6in"}
-
-![
-**Tools shared with Biotools**
-](images/tools_shared_with_biotools.png){#fig:tools-shared-with-biotools width="6in"}
-
-![
-**Tools shared with omicsX**
-](images/tools_shared_with_omicsX.png){#fig:tools-shared-with-omicsX width="6in"}
-
-![
-**Total number of packages**
+**Total number of packages.**
+The initial list of all available sofware for each package manager was compiled by parsing its online repository with WebScraper @https://webscraper.io/
+(AppImage @https://appimage.github.io/apps/,
+Bioconda @https://bioconda.github.io/conda-recipe_index.html,
+Bioconductor @http://bioconductor.org/packages/release/BiocViews.html#___Software,
+BioContainers @https://github.com/BioContainers/containers,
+CRAN @https://cran.r-project.org/web/packages/available_packages_by_name.html, 
+Docker @https://hub.docker.com/search?q=&type=image&page=1, 
+Easybuild @https://easybuild.readthedocs.io/en/latest/version-specific/Supported_software.html, 
+Flatpack @https://flathub.org/apps/category/All, 
+GNU Guix @https://guix.gnu.org/packages/, 
+omicX @https://omictools.com/software?page=1, 
+pip @https://pypi.org/simple/, 
+Singularity @https://singularity-hub.org/apps, 
+Snap @https://snapcraft.io/store, 
+Spack @https://spack.readthedocs.io/en/latest/package_list.html, 
+Vagrant @https://app.vagrantup.com/boxes/search?order=desc&page=2375, 
+and Zero Install @http://roscidus.com/0mirror/feed-list)
+or by querying the package manager directly (APT, Biocontainers, Conda, Homebrew).
+Each list converted to a set with pandas @https://pandas.pydata.org/ and NumPy @https://numpy.org/, which removed all capitalization and duplicates.
+The number of entries in a package manager's set was taken to be the total number of packages available for that package manager.
 ](images/total_number_of_packages.png){#fig:total-number-of-packages width="6in"}
 
 ![
-**Trends**
-](images/trends.png){#fig:trends width="6in"}
+**Packages heatmap**
+The sets obtained in @fig:total-number-of-packages were compared with the set intersection function to find the number of commonalities between all pairs of package managers.
+](images/tools_heatmap.png){#fig:tools-heatmap width="6in"}
 
+![
+**Overlap in available packages between omics package managers.**
+The sets obtained for Bioconda, Bioconductor, and omicX in @fig:total-number-of-packages were compared with the set intersection function to find the number of commonalities between all combinations of the three package managers.
+](images/overlap_in_tools.png){#fig:overlap-in-tools width="6in"}
 
+![
+**Availablity of Bioconda's packages in non-omics package managers.**
+The sets obtained for Bioinformatics Tools and the non-omics package managers in @fig:total-number-of-packages were compared with the set intersection function to find the number of commonalities between Bioconda and the non-omics package managers.
+](images/tools_shared_with_bioconda.png){#fig:tools-shared-with-bioconda width="6in"}
 
+![
+**Availablity of Bioinformatics Tools' packages in non-omics package managers.**
+The sets obtained for Bioinformatics Tools and the non-omics package managers in @fig:total-number-of-packages were compared with the set intersection function to find the number of commonalities between Bioinformatics Tools and the non-omics package managers.
+](images/tools_shared_with_biotools.png){#fig:tools-shared-with-biotools width="6in"}
+
+![
+**Availability of omicX's packages in non-omics package managers.**
+The sets obtained for omicX and the non-omics package managers in @fig:total-number-of-packages were compared with the set intersection function to find the number of commonalities between omicX and the non-omics package managers.
+](images/tools_shared_with_omicX.png){#fig:tools-shared-with-omicX width="6in"}
 
 
 ## Glossary {.page_break_before}
