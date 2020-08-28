@@ -9,12 +9,12 @@ Ayyala
 Bioconda
 Bioconda’s
 Bioconductor
-Biocontainers
+BioContainers
 Bioengineering
 bioinformatics
 blawlor
 Brito
-Conda
+conda
 Courtès
 CRAN
 depedencies
