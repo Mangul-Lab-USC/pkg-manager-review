@@ -18,10 +18,8 @@ conda
 Courtès
 CRAN
 depedencies
-desc
 Easybuild
 Flathub
-Flatpack
 Flatpak
 Gamblin
 genomic
