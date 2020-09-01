@@ -11,7 +11,7 @@ Bioconda’s
 Bioconductor
 Biocontainers
 Bioengineering
-bioinformatics
+Bioinformatics
 blawlor
 Brito
 conda
