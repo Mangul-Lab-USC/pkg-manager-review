@@ -6,7 +6,7 @@ AppImageHub
 approrpriate
 Availablity
 Ayyala
-Bioconda
+bioconda
 Bioconda’s
 Bioconductor
 BioContainers
@@ -15,7 +15,7 @@ bioinformatics
 biotools
 blawlor
 Brito
-conda
+Conda
 Courtès
 CRAN
 depedencies
