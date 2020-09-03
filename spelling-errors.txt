@@ -11,11 +11,11 @@ Bioconda’s
 Bioconductor
 BioContainers
 Bioengineering
-bioinformatics
+Bioinformatics
 biotools
 blawlor
 Brito
-Conda
+conda
 Courtès
 CRAN
 depedencies
