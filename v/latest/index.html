@@ -105,9 +105,9 @@
   <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/11f634e133cf23501147c15ad0b991fe61f9f246/" />
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/11f634e133cf23501147c15ad0b991fe61f9f246/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/11f634e133cf23501147c15ad0b991fe61f9f246/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/cff2bcf868ead04b942c333ee8a495655a3dc424/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/cff2bcf868ead04b942c333ee8a495655a3dc424/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/cff2bcf868ead04b942c333ee8a495655a3dc424/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -121,9 +121,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/11f634e133cf23501147c15ad0b991fe61f9f246/">permalink</a>)
+(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/cff2bcf868ead04b942c333ee8a495655a3dc424/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/11f634e133cf23501147c15ad0b991fe61f9f246">Mangul-Lab-USC/pkg-manager-review@11f634e</a>
+from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/cff2bcf868ead04b942c333ee8a495655a3dc424">Mangul-Lab-USC/pkg-manager-review@cff2bcf</a>
 on September 3, 2020.
 </em></small></p>
 <h2 id="unsorted-list-of-authors">Unsorted list of authors</h2>
@@ -293,7 +293,26 @@ Package managers only allow one version of software to be installed at a time, p
 <li>can’t install multiple versions of same software</li>
 </ul></li>
 </ul>
-<h4 id="containerization">Containerization</h4>
+<h4 id="containerization-and-virtualization">Containerization and Virtualization</h4>
+<p>One approach to sharing software involves virtualization.
+Virtualization is a technique that allows the creation of instances of a software environment, often called ‘images’.
+These images present many benefits for software sharing: only a single image file needs to be downloaded by users, and these image files can have all necessary dependencies for the software pre-installed by the developer, thereby avoiding installation difficulties for users.</p>
+<p>Traditional virtual machines emulate operating systems and are run directly on the host’s hardware.
+These are sometimes known as ‘type 1 hypervisors’ <span class="citation" data-cites="m7GlMoKS">[<a href="#ref-m7GlMoKS" role="doc-biblioref">1</a>]</span>.
+Later, ‘type 2’ virtualization techniques were developed, running on top of the host operating system (OS) by translating all OS instructions within the guest image <span class="citation" data-cites="m7GlMoKS">[<a href="#ref-m7GlMoKS" role="doc-biblioref">1</a>]</span>.
+While these approaches excel in portability, they incur a significant CPU and memory overhead, prompting the development of a more recent approach called Operating System (OS)-Level Virtualization.
+OS-Level Virtualization runs on top of the same kernel as the host OS, allowing multiple isolated user spaces to be run in parallel and incurring lower CPU, memory, and networking overhead <span class="citation" data-cites="m7GlMoKS">[<a href="#ref-m7GlMoKS" role="doc-biblioref">1</a>]</span>.
+These user spaces, e.g. OS-level images being executed by users, are often called “containers”, but also go by a variety of other names.
+Examples of this technique include Docker <span class="citation" data-cites="JtlleeA7">[<a href="#ref-JtlleeA7" role="doc-biblioref">3</a>]</span>, LXC <span class="citation" data-cites="9VpoDVuG">[<a href="#ref-9VpoDVuG" role="doc-biblioref">4</a>]</span>, OpenVZ <span class="citation" data-cites="PGoc8KFG">[<a href="#ref-PGoc8KFG" role="doc-biblioref">5</a>]</span>, Linux-VServer <span class="citation" data-cites="1FhqlhM7v">[<a href="#ref-1FhqlhM7v" role="doc-biblioref">6</a>]</span>, and rkt <span class="citation" data-cites="qYvHgjzq">[<a href="#ref-qYvHgjzq" role="doc-biblioref">7</a>]</span>.</p>
+<p>Of these, Docker is perhaps the most widely-used platform.
+A key aspect of the Docker approach is its modularity: images are stored in a public repository on Docker’s website, and it is easy to use an existing image as a “base” to build a new image off of.
+Docker images are defined by a human-readable, plaintext “Dockerfile” in which the developer specifies whether to build off of a previous base docker image and what additional software libraries and dependencies should be installed.
+The Dockerfile also serves as an easy-to-read documentation of what dependencies the software is built on <span class="citation" data-cites="12p5HQZwI">[<a href="#ref-12p5HQZwI" role="doc-biblioref">8</a>]</span>.
+Docker then builds an image based on the developer’s specifications and this image can be uploaded to the Docker website.</p>
+<p>Several limitations exist with Docker and other OS-level virtualization platforms.
+OS-level images are, as the name implies, limited to a specific host operating system <span class="citation" data-cites="m7GlMoKS">[<a href="#ref-m7GlMoKS" role="doc-biblioref">1</a>]</span>.
+Security concerns have been raised about the vulnerability of containers to compromise, denial of service, and privilege escalation attacks <span class="citation" data-cites="1A2U0qhZt">[<a href="#ref-1A2U0qhZt" role="doc-biblioref">2</a>]</span>.
+Deployment on high-performance computing clusters is a promising possibility but presents substantial engineering challenges having to do with maximizing resource utilization and allocating resources effectively <span class="citation" data-cites="Dupr7j7D">[<a href="#ref-Dupr7j7D" role="doc-biblioref">9</a>]</span>.</p>
 <div id="fig:containerization-schematics" class="fignos">
 <figure>
 <img src="images/containerization_schematics.png" style="width:6in" alt="" /><figcaption><span>Figure 3:</span> <strong>Schematic showing standard containerization objects.</strong></figcaption>
@@ -397,35 +416,35 @@ Docker, the most popular containerization software is nearly five times as popul
 </div>
 <h2 class="page_break_before" id="methods">Methods</h2>
 <p><strong><a href="#fig:google-trends-chart">5</a></strong>
-Google Trends <span class="citation" data-cites="8P9FoCjj"><a href="#ref-8P9FoCjj" role="doc-biblioref">1</a></span>/ was used to assess the relative average popularity of each package manager.
+Google Trends <span class="citation" data-cites="8P9FoCjj"><a href="#ref-8P9FoCjj" role="doc-biblioref">10</a></span>/ was used to assess the relative average popularity of each package manager.
 Package managers were omitted when Google Trends did not have enough data to return a result.
-The method detailed in “How do you compare large number of items in Google Trends?” <span class="citation" data-cites="1DWBeqhDM"><a href="#ref-1DWBeqhDM" role="doc-biblioref">2</a></span>/ was used to overcome Google Trends’ limitation of five search terms.</p>
+The method detailed in “How do you compare large number of items in Google Trends?” <span class="citation" data-cites="1DWBeqhDM"><a href="#ref-1DWBeqhDM" role="doc-biblioref">11</a></span>/ was used to overcome Google Trends’ limitation of five search terms.</p>
 <p><a href="#fig:citations-chart">6</a>
-For package managers introduced with a major publication, the number of citations for their publication was found via Google Scholar <span class="citation" data-cites="1RPBIGHO"><a href="#ref-1RPBIGHO" role="doc-biblioref">3</a></span>/ and recorded.
+For package managers introduced with a major publication, the number of citations for their publication was found via Google Scholar <span class="citation" data-cites="1RPBIGHO"><a href="#ref-1RPBIGHO" role="doc-biblioref">12</a></span>/ and recorded.
 Package managers without a major publication were excluded.</p>
 <p><a href="#fig:google-scholar-chart">7</a>
-Each package manager’s name was used as a search term on Google Scholar <span class="citation" data-cites="1RPBIGHO"><a href="#ref-1RPBIGHO" role="doc-biblioref">3</a></span>/ and the number of results was recorded.
+Each package manager’s name was used as a search term on Google Scholar <span class="citation" data-cites="1RPBIGHO"><a href="#ref-1RPBIGHO" role="doc-biblioref">12</a></span>/ and the number of results was recorded.
 Package manager names that returned results for things other than the package manager were omitted.</p>
 <p><a href="#fig:available-packages-chart">8</a>
-The initial list of all available sofware for each package manager was compiled by parsing its online repository with WebScraper <span class="citation" data-cites="eAB3iiNS"><a href="#ref-eAB3iiNS" role="doc-biblioref">4</a></span>/
-(AppImage <span class="citation" data-cites="NsH6ebzY"><a href="#ref-NsH6ebzY" role="doc-biblioref">5</a></span>,
-Bioconda <span class="citation" data-cites="Uu4Qybvx"><a href="#ref-Uu4Qybvx" role="doc-biblioref">6</a></span>,
-Bioconductor <span class="citation" data-cites="vwpC8BQN"><a href="#ref-vwpC8BQN" role="doc-biblioref">7</a></span>,
+The initial list of all available sofware for each package manager was compiled by parsing its online repository with WebScraper <span class="citation" data-cites="eAB3iiNS"><a href="#ref-eAB3iiNS" role="doc-biblioref">13</a></span>/
+(AppImage <span class="citation" data-cites="NsH6ebzY"><a href="#ref-NsH6ebzY" role="doc-biblioref">14</a></span>,
+Bioconda <span class="citation" data-cites="Uu4Qybvx"><a href="#ref-Uu4Qybvx" role="doc-biblioref">15</a></span>,
+Bioconductor <span class="citation" data-cites="vwpC8BQN"><a href="#ref-vwpC8BQN" role="doc-biblioref">16</a></span>,
 BioContainers <span class="citation" data-cites="Biocontainers-packages">[<span class="citeproc-not-found" data-reference-id="Biocontainers-packages"><strong>???</strong></span>]</span>,
-CRAN <span class="citation" data-cites="1E8zZeMAd"><a href="#ref-1E8zZeMAd" role="doc-biblioref">8</a></span>,
-Docker <span class="citation" data-cites="PqH7nMW5"><a href="#ref-PqH7nMW5" role="doc-biblioref">9</a></span>,
-EasyBuild <span class="citation" data-cites="kk2RayaF"><a href="#ref-kk2RayaF" role="doc-biblioref">10</a></span>,
-Flatpak <span class="citation" data-cites="PUp4wgYl"><a href="#ref-PUp4wgYl" role="doc-biblioref">11</a></span>,
-GNU Guix <span class="citation" data-cites="Nl7eskLF"><a href="#ref-Nl7eskLF" role="doc-biblioref">12</a></span>,
-omicX <span class="citation" data-cites="huAC6X8o"><a href="#ref-huAC6X8o" role="doc-biblioref">13</a></span>,
-pip <span class="citation" data-cites="r3zABRmN"><a href="#ref-r3zABRmN" role="doc-biblioref">14</a></span>,
-Singularity <span class="citation" data-cites="luLkhwZM"><a href="#ref-luLkhwZM" role="doc-biblioref">15</a></span>,
-Snap <span class="citation" data-cites="HpLPjvlv"><a href="#ref-HpLPjvlv" role="doc-biblioref">16</a></span>,
-Spack <span class="citation" data-cites="rmkdwm8D"><a href="#ref-rmkdwm8D" role="doc-biblioref">17</a></span>,
-Vagrant <span class="citation" data-cites="XCKOz4M6"><a href="#ref-XCKOz4M6" role="doc-biblioref">18</a></span>,
-and Zero Install <span class="citation" data-cites="LaivX8gv"><a href="#ref-LaivX8gv" role="doc-biblioref">19</a></span>)
+CRAN <span class="citation" data-cites="1E8zZeMAd"><a href="#ref-1E8zZeMAd" role="doc-biblioref">17</a></span>,
+Docker <span class="citation" data-cites="PqH7nMW5"><a href="#ref-PqH7nMW5" role="doc-biblioref">18</a></span>,
+EasyBuild <span class="citation" data-cites="kk2RayaF"><a href="#ref-kk2RayaF" role="doc-biblioref">19</a></span>,
+Flatpak <span class="citation" data-cites="PUp4wgYl"><a href="#ref-PUp4wgYl" role="doc-biblioref">20</a></span>,
+GNU Guix <span class="citation" data-cites="Nl7eskLF"><a href="#ref-Nl7eskLF" role="doc-biblioref">21</a></span>,
+omicX <span class="citation" data-cites="huAC6X8o"><a href="#ref-huAC6X8o" role="doc-biblioref">22</a></span>,
+pip <span class="citation" data-cites="r3zABRmN"><a href="#ref-r3zABRmN" role="doc-biblioref">23</a></span>,
+Singularity <span class="citation" data-cites="luLkhwZM"><a href="#ref-luLkhwZM" role="doc-biblioref">24</a></span>,
+Snap <span class="citation" data-cites="HpLPjvlv"><a href="#ref-HpLPjvlv" role="doc-biblioref">25</a></span>,
+Spack <span class="citation" data-cites="rmkdwm8D"><a href="#ref-rmkdwm8D" role="doc-biblioref">26</a></span>,
+Vagrant <span class="citation" data-cites="XCKOz4M6"><a href="#ref-XCKOz4M6" role="doc-biblioref">27</a></span>,
+and Zero Install <span class="citation" data-cites="LaivX8gv"><a href="#ref-LaivX8gv" role="doc-biblioref">28</a></span>)
 or by querying the package manager directly (APT, Biocontainers, Conda, Homebrew).
-Each list converted to a set with pandas <span class="citation" data-cites="tIp1AtBU"><a href="#ref-tIp1AtBU" role="doc-biblioref">20</a></span>/ and NumPy <span class="citation" data-cites="Qk63hG4Y"><a href="#ref-Qk63hG4Y" role="doc-biblioref">21</a></span>/, which removed all capitalization and duplicates.
+Each list converted to a set with pandas <span class="citation" data-cites="tIp1AtBU"><a href="#ref-tIp1AtBU" role="doc-biblioref">29</a></span>/ and NumPy <span class="citation" data-cites="Qk63hG4Y"><a href="#ref-Qk63hG4Y" role="doc-biblioref">30</a></span>/, which removed all capitalization and duplicates.
 The number of entries in a package manager’s set was taken to be the total number of packages available for that package manager.</p>
 <p><a href="#fig:available-packages-heatmap">9</a>
 The sets obtained in <a href="#fig:available-packages-chart">8</a> were compared with the set intersection function to find the number of commonalities between all pairs of package managers.</p>
@@ -444,80 +463,119 @@ The sets obtained for omicX and the non-omics package managers in <a href="#fig:
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <!-- References for HTML versions of repositories -->
+<div id="ref-m7GlMoKS">
+<p>1. <strong>Performance Evaluation of OS-Level Virtualization Solutions for HPC Purposes on SoC-Based Systems</strong> <br />
+David Beserra, Manuele Kirsch Pinheiro, Carine Souveyet, Luiz Angelo Steffenel, Edward David Moreno<br />
+<em>2017 IEEE 31st International Conference on Advanced Information Networking and Applications (AINA)</em> (2017-03) <br />
+DOI: <a href="https://doi.org/10.1109/AINA.2017.73">10.1109/aina.2017.73</a></p>
+</div>
+<div id="ref-1A2U0qhZt">
+<p>2. <strong>Security of OS-level virtualization technologies: Technical report</strong> <br />
+Elena Reshetova, Janne Karhunen, Thomas Nyman, N. Asokan<br />
+<em>arXiv:1407.4245 [cs]</em> (2014-07-16) <a href="http://arxiv.org/abs/1407.4245">http://arxiv.org/abs/1407.4245</a></p>
+</div>
+<div id="ref-JtlleeA7">
+<p>3. <strong>Empowering App Development for Developers | Docker</strong> <br />
+Docker<br />
+(2020-09-03) <a href="https://www.docker.com/">https://www.docker.com/</a></p>
+</div>
+<div id="ref-9VpoDVuG">
+<p>4. <strong>Linux Containers - LXC - Introduction</strong> <a href="https://linuxcontainers.org/lxc/">https://linuxcontainers.org/lxc/</a></p>
+</div>
+<div id="ref-PGoc8KFG">
+<p>5. <strong>openvz</strong> <a href="https://openvz.livejournal.com/">https://openvz.livejournal.com/</a></p>
+</div>
+<div id="ref-1FhqlhM7v">
+<p>6. <strong>Linux-VServer</strong> <a href="http://linux-vserver.org/Welcome_to_Linux-VServer.org">http://linux-vserver.org/Welcome_to_Linux-VServer.org</a></p>
+</div>
+<div id="ref-qYvHgjzq">
+<p>7. <strong>CoreOS</strong> <a href="https://coreos.com/rkt/">https://coreos.com/rkt/</a></p>
+</div>
+<div id="ref-12p5HQZwI">
+<p>8. <strong>An introduction to Docker for reproducible research</strong> <br />
+Carl Boettiger<br />
+<em>ACM SIGOPS Operating Systems Review</em> (2015-01-20) <a href="https://doi.org/10.1145/2723872.2723882">https://doi.org/10.1145/2723872.2723882</a> <br />
+DOI: <a href="https://doi.org/10.1145/2723872.2723882">10.1145/2723872.2723882</a></p>
+</div>
+<div id="ref-Dupr7j7D">
+<p>9. <strong>Container-based Cluster Orchestration Systems: A Taxonomy and Future Directions</strong> <br />
+Maria A. Rodriguez, Rajkumar Buyya<br />
+<em>arXiv:1807.06193 [cs]</em> (2018-11-02) <a href="http://arxiv.org/abs/1807.06193">http://arxiv.org/abs/1807.06193</a></p>
+</div>
 <div id="ref-8P9FoCjj">
-<p>1. <strong>Google Trends</strong> <br />
+<p>10. <strong>Google Trends</strong> <br />
 Google Trends<br />
 <a href="https://trends.google.com/trends">https://trends.google.com/trends</a></p>
 </div>
 <div id="ref-1DWBeqhDM">
-<p>2. <strong>How do you compare large numbers of items in Google Trends?</strong> <br />
+<p>11. <strong>How do you compare large numbers of items in Google Trends?</strong> <br />
 jonathanbriggs<br />
 <em>Digital Jobs To Be Done</em> (2017-07-10) <a href="https://digitaljobstobedone.com/2017/07/10/how-do-you-compare-large-numbers-of-items-in-google-trends/">https://digitaljobstobedone.com/2017/07/10/how-do-you-compare-large-numbers-of-items-in-google-trends/</a></p>
 </div>
 <div id="ref-1RPBIGHO">
-<p>3. <strong>Google Scholar</strong> <a href="https://scholar.google.com/">https://scholar.google.com/</a></p>
+<p>12. <strong>Google Scholar</strong> <a href="https://scholar.google.com/">https://scholar.google.com/</a></p>
 </div>
 <div id="ref-eAB3iiNS">
-<p>4. <strong>Web Scraper - The #1 web scraping extension</strong> <a href="https://webscraper.io/">https://webscraper.io/</a></p>
+<p>13. <strong>Web Scraper - The #1 web scraping extension</strong> <a href="https://webscraper.io/">https://webscraper.io/</a></p>
 </div>
 <div id="ref-NsH6ebzY">
-<p>5. <strong>Apps in AppImage format</strong> <br />
+<p>14. <strong>Apps in AppImage format</strong> <br />
 AppImageHub<br />
 <em>AppImageHub</em> <a href="https://appimage.github.io/apps/">https://appimage.github.io/apps/</a></p>
 </div>
 <div id="ref-Uu4Qybvx">
-<p>6. <a href="https://bioconda.github.io/conda-recipe_index.html">https://bioconda.github.io/conda-recipe_index.html</a></p>
+<p>15. <a href="https://bioconda.github.io/conda-recipe_index.html">https://bioconda.github.io/conda-recipe_index.html</a></p>
 </div>
 <div id="ref-vwpC8BQN">
-<p>7. <strong>Bioconductor - BiocViews</strong> <a href="http://bioconductor.org/packages/release/BiocViews.html#___Software">http://bioconductor.org/packages/release/BiocViews.html#___Software</a></p>
+<p>16. <strong>Bioconductor - BiocViews</strong> <a href="http://bioconductor.org/packages/release/BiocViews.html#___Software">http://bioconductor.org/packages/release/BiocViews.html#___Software</a></p>
 </div>
 <div id="ref-1E8zZeMAd">
-<p>8. <strong>CRAN Packages By Name</strong> <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">https://cran.r-project.org/web/packages/available_packages_by_name.html</a></p>
+<p>17. <strong>CRAN Packages By Name</strong> <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">https://cran.r-project.org/web/packages/available_packages_by_name.html</a></p>
 </div>
 <div id="ref-PqH7nMW5">
-<p>9. <strong>Docker Hub</strong> <a href="https://hub.docker.com/search?q=&amp;type=image&amp;page=1">https://hub.docker.com/search?q=&amp;type=image&amp;page=1</a></p>
+<p>18. <strong>Docker Hub</strong> <a href="https://hub.docker.com/search?q=&amp;type=image&amp;page=1">https://hub.docker.com/search?q=&amp;type=image&amp;page=1</a></p>
 </div>
 <div id="ref-kk2RayaF">
-<p>10. <strong>List of supported software — EasyBuild v4.2.2 documentation (release 20200708.0)</strong> <a href="https://easybuild.readthedocs.io/en/latest/version-specific/Supported_software.html">https://easybuild.readthedocs.io/en/latest/version-specific/Supported_software.html</a></p>
+<p>19. <strong>List of supported software — EasyBuild v4.2.2 documentation (release 20200708.0)</strong> <a href="https://easybuild.readthedocs.io/en/latest/version-specific/Supported_software.html">https://easybuild.readthedocs.io/en/latest/version-specific/Supported_software.html</a></p>
 </div>
 <div id="ref-PUp4wgYl">
-<p>11. <strong>Flathub—An app store and build service for Linux</strong> <a href="https://flathub.org/apps/category/All">https://flathub.org/apps/category/All</a></p>
+<p>20. <strong>Flathub—An app store and build service for Linux</strong> <a href="https://flathub.org/apps/category/All">https://flathub.org/apps/category/All</a></p>
 </div>
 <div id="ref-Nl7eskLF">
-<p>12. <strong>Packages — GNU Guix</strong> <a href="https://guix.gnu.org/packages/">https://guix.gnu.org/packages/</a></p>
+<p>21. <strong>Packages — GNU Guix</strong> <a href="https://guix.gnu.org/packages/">https://guix.gnu.org/packages/</a></p>
 </div>
 <div id="ref-huAC6X8o">
-<p>13. <a href="https://omictools.com/software?page=1">https://omictools.com/software?page=1</a></p>
+<p>22. <a href="https://omictools.com/software?page=1">https://omictools.com/software?page=1</a></p>
 </div>
 <div id="ref-r3zABRmN">
-<p>14. <strong>Simple index</strong> <a href="https://pypi.org/simple">https://pypi.org/simple</a></p>
+<p>23. <strong>Simple index</strong> <a href="https://pypi.org/simple">https://pypi.org/simple</a></p>
 </div>
 <div id="ref-luLkhwZM">
-<p>15. <strong>singularity-hub</strong> <br />
+<p>24. <strong>singularity-hub</strong> <br />
 vsoch<br />
 <em>Singularity Hub</em> <a href="https://singularity-hub.org/apps">https://singularity-hub.org/apps</a></p>
 </div>
 <div id="ref-HpLPjvlv">
-<p>16. <strong>Install Linux apps using the Snap Store | Snapcraft</strong> <br />
+<p>25. <strong>Install Linux apps using the Snap Store | Snapcraft</strong> <br />
 @snapcraftio<br />
 <em>Snapcraft</em> <a href="https://snapcraft.io/store">https://snapcraft.io/store</a></p>
 </div>
 <div id="ref-rmkdwm8D">
-<p>17. <strong>Package List — Spack 0.15.4 documentation</strong> (2020-08-28) <a href="https://spack.readthedocs.io/en/latest/package_list.html">https://spack.readthedocs.io/en/latest/package_list.html</a></p>
+<p>26. <strong>Package List — Spack 0.15.4 documentation</strong> (2020-08-28) <a href="https://spack.readthedocs.io/en/latest/package_list.html">https://spack.readthedocs.io/en/latest/package_list.html</a></p>
 </div>
 <div id="ref-XCKOz4M6">
-<p>18. <strong>Vagrant Cloud by HashiCorp</strong> <br />
+<p>27. <strong>Vagrant Cloud by HashiCorp</strong> <br />
 Vagrant Cloud by HashiCorp<br />
 <a href="https://app.vagrantup.com">https://app.vagrantup.com</a></p>
 </div>
 <div id="ref-LaivX8gv">
-<p>19. <a href="http://roscidus.com/0mirror/feed-list">http://roscidus.com/0mirror/feed-list</a></p>
+<p>28. <a href="http://roscidus.com/0mirror/feed-list">http://roscidus.com/0mirror/feed-list</a></p>
 </div>
 <div id="ref-tIp1AtBU">
-<p>20. <strong>pandas - Python Data Analysis Library</strong> <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a></p>
+<p>29. <strong>pandas - Python Data Analysis Library</strong> <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a></p>
 </div>
 <div id="ref-Qk63hG4Y">
-<p>21. <strong>NumPy</strong> <a href="https://numpy.org/">https://numpy.org/</a></p>
+<p>30. <strong>NumPy</strong> <a href="https://numpy.org/">https://numpy.org/</a></p>
 </div>
 </div>
 <h2 class="page_break_before" id="tables">Tables</h2>
