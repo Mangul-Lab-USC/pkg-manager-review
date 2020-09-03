@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/gh-pages) branch hosts the contents of this directory at <https://Mangul-Lab-USC.github.io/pkg-manager-review/>.
-The permalink for this webpage version is <https://Mangul-Lab-USC.github.io/pkg-manager-review/v/cff2bcf868ead04b942c333ee8a495655a3dc424/>.
+The permalink for this webpage version is <https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://Mangul-Lab-USC.github.io/pkg-manager-review/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`cff2bcf868ead04b942c333ee8a495655a3dc424`](https://github.com/Mangul-Lab-USC/pkg-manager-review/commit/cff2bcf868ead04b942c333ee8a495655a3dc424).
+[`eff73eb20e929d495f419ad572622b6dfcb2c32d`](https://github.com/Mangul-Lab-USC/pkg-manager-review/commit/eff73eb20e929d495f419ad572622b6dfcb2c32d).
