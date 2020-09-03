@@ -6,12 +6,12 @@ AppImageHub
 approrpriate
 Availablity
 Ayyala
-bioconda
+Bioconda
 Bioconda’s
 Bioconductor
-BioContainers
+Biocontainers
 Bioengineering
-Bioinformatics
+bioinformatics
 biotools
 blawlor
 Brito
