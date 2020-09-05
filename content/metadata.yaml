@@ -24,28 +24,28 @@ authors:
       -   Department of Clinical Pharmacy, School of Pharmacy, University of Southern California
   - name: Neha Rajkumar
     initials:
-    email: 
-    orcid: 
+    email:
+    orcid:
     github:
     twitter:
     affiliations:
       - Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles
   - name: Ram Ayyala
     initials:
-    email: 
-    orcid: 
+    email:
+    orcid:
     github:
     twitter:
     affiliations:
       - Department of Neuroscience, School of Life Sciences, University of California Los Angeles
   - name: Heng Li
     initials:
-    email: 
-    orcid: 
+    email:
+    orcid:
     github:
     twitter:
     affiliations:
-      - 
+      -
   - name: Nathan LaPierre
     initials: NRL
     email: nathanl2012@gmail.com
@@ -56,16 +56,16 @@ authors:
       - Computer Science Department, Samueli School of Engineering, University of California, Los Angeles
   - name: André Santos
     initials:
-    email: 
-    orcid: 
+    email:
+    orcid:
     github:
     twitter:
     affiliations:
-      - 
+      -
   - name: Titus Brown
     initials:
     email:
-    orcid: 
+    orcid:
     github:
     twitter:
     affiliations:
@@ -82,16 +82,16 @@ authors:
     orcid: 0000-0002-2250-0669
     github: blawlor
     twitter: blawlor
-    affiliations: 
+    affiliations:
       - Department of Computer Science, Cork Institute of Technology, Cork, Ireland.
   - name: Qiyang Hu
     initials:
     email:
-    orcid: 
+    orcid:
     github:
     twitter:
     affiliations:
-      - 
+      -
   - name: Jaqueline J. Brito
     initials: JJB
     email: britoj@usc.edu
@@ -103,8 +103,16 @@ authors:
   - name: Thiago Mosqueiro
     initials:
     email:
-    orcid: 
+    orcid:
     github:
     twitter:
     affiliations:
-      - 
+      -
+  - name: Benjamin J. Heil
+    initials: BJH
+    email: benheil@pennmedicine.upenn.edu
+    orcid: 0000-0002-2811-1031
+    github: ben-heil
+    twitter: autobencoder
+    affiliations:
+      - Genomics and Computational Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania
