@@ -13,10 +13,11 @@ author-meta:
 - Qiyang Hu
 - Jaqueline J. Brito
 - Thiago Mosqueiro
+- Benjamin J. Heil
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-03'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"citation_title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"og:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"twitter:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"dc.date\" content=\"2020-09-03\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Sharon Waymost\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1176-5386\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"citation_author\" content=\"Neha Rajkumar\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Ram Ayyala\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, School of Life Sciences, University of California Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Heng Li\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Nathan LaPierre\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2394-8868\" />\n<meta name=\"twitter:creator\" content=\"@nlapier2\" />\n<meta name=\"citation_author\" content=\"Andr\xE9 Santos\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Brendan Lawlor\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, Cork Institute of Technology, Cork, Ireland.\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2250-0669\" />\n<meta name=\"twitter:creator\" content=\"@blawlor\" />\n<meta name=\"citation_author\" content=\"Qiyang Hu\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Thiago Mosqueiro\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<link rel=\"canonical\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"og:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"twitter:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-09-05'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"citation_title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"og:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta property=\"twitter:title\" content=\"Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities\" />\n<meta name=\"dc.date\" content=\"2020-09-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Sharon Waymost\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1176-5386\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"citation_author\" content=\"Neha Rajkumar\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Ram Ayyala\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, School of Life Sciences, University of California Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Heng Li\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Nathan LaPierre\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Samueli School of Engineering, University of California, Los Angeles\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2394-8868\" />\n<meta name=\"twitter:creator\" content=\"@nlapier2\" />\n<meta name=\"citation_author\" content=\"Andr\xE9 Santos\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Brendan Lawlor\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, Cork Institute of Technology, Cork, Ireland.\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2250-0669\" />\n<meta name=\"twitter:creator\" content=\"@blawlor\" />\n<meta name=\"citation_author\" content=\"Qiyang Hu\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Jaqueline J. Brito\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7158-3253\" />\n<meta name=\"twitter:creator\" content=\"@jaquejbrito\" />\n<meta name=\"citation_author\" content=\"Thiago Mosqueiro\" />\n<meta name=\"citation_author_institution\" content=\"None\" />\n<meta name=\"citation_author_orcid\" content=\"None\" />\n<meta name=\"twitter:creator\" content=\"@None\" />\n<meta name=\"citation_author\" content=\"Benjamin J. Heil\" />\n<meta name=\"citation_author_institution\" content=\"Genomics and Computational Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2811-1031\" />\n<meta name=\"twitter:creator\" content=\"@autobencoder\" />\n<link rel=\"canonical\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"og:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta property=\"twitter:url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - package managers
 - containerization
@@ -37,10 +38,10 @@ title: 'Packaging and containerizing of bioinformatics software: advances, chall
 
 <small><em>
 This manuscript
-([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/))
+([permalink](https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/))
 was automatically generated
-from [Mangul-Lab-USC/pkg-manager-review@eff73eb](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/eff73eb20e929d495f419ad572622b6dfcb2c32d)
-on September 3, 2020.
+from [Mangul-Lab-USC/pkg-manager-review@ab2544f](https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/ab2544fda55c8c521f2ffa130d9a29dde160457f)
+on September 5, 2020.
 </em></small>
 
 ## Unsorted list of authors
@@ -140,6 +141,17 @@ on September 3, 2020.
      None
   </small>
 
++ **Benjamin J. Heil**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2811-1031](https://orcid.org/0000-0002-2811-1031)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ben-heil](https://github.com/ben-heil)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [autobencoder](https://twitter.com/autobencoder)<br>
+  <small>
+     Genomics and Computational Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania
+  </small>
+
 
 
 ## Abstract {.page_break_before}
@@ -182,10 +194,16 @@ We also propose principles that can make packaging and containerizing of bioinfo
 
 ### Existing problems with software distribution and installation
 
-The installation process of bioinformatics research software is typically a multi-step process, starting with the end-user locating and downloading the software. 
+The installation process of bioinformatics research software is typically a multi-step process, starting with the end-user locating and downloading the software.
 Next is the actual installation, during which the end-user must determine what dependencies are missing and resolve them by installing the required software[5](https://paperpile.com/c/4vBDtY/kjwlC).
 Even in cases where the end-user is familiar with this process, they are typically installing on high-performance clusters where they are constrained by user-level permissions that prevent them from following standard installation procedures.
 
+In addition to being difficult, manual installation of bioinformatics software can lead to irreproducible findings.
+Software versions change over time, sometimes leading to different runtime behavior.
+If an analysis is dependent on recently introduced features of a tool, users trying to reproduce the work with older installations will fail.
+Likewise, even existing functionality can change over time.
+For example, the `input` function in Python 2 is used to run code while in Python 3 it creates a command line prompt [@python-3-changes].
+To prevent such issues without using a package manager, it is necessary to manually keep track of the versions of all dependencies.
 
 
 - root access limitations
@@ -200,16 +218,16 @@ Even in cases where the end-user is familiar with this process, they are typical
 Package managers appeared nearly thirty years ago as software developers sought to automate and standardize the software installation process.
 The earliest package managers (e.g. APT and RPM) were built into Linux operating systems and lacked now common features like dependency resolution.
 Modern package managers are available for all major operating systems, with both integrated and user-installed options available.
-Some are package managers are limited to software written in a specific programming language (e.g. pip distributes software written in Perl), while others are limited to sofware with a particular purpose (e.g. Bioconda distributes omics software).
+Some are package managers are limited to software written in a specific programming language (e.g. pip distributes software written in Python), while others are limited to sofware with a particular purpose (e.g. Bioconda distributes omics software).
 
-Every package managers uses its own package format, which follows the general structure shown in Figure @fig:package-schematic. 
+Every package managers uses its own package format, which follows the general structure shown in Figure @fig:package-schematic.
 
 ![
 **Schematic showing standard package contents.**
 Though the exact contents varies between different package formats, all include the software and relevant metadata necessary to complete installation.
 ](images/package_schematic.png){#fig:package-schematic}
 
-The metadata gives the package manager the necessary information to install the packaged software. 
+The metadata gives the package manager the necessary information to install the packaged software.
 
 To use a package manager, a user instructs the package manager to install software, then the package manager performs all the necessary steps to install the software as shown in Figure @fig:package-manager-usage.
 Assuming the software is not already installed, the package manager retrieves the appropriate package from the repository, a server that stores all of the available packages.
@@ -218,12 +236,12 @@ For most packages, this includes verifying the installation of all dependencies,
 
 ![
 **Standard workflow for installing software via a package manager.**
-The user, usually an admin, asks the package manager to install a specific piece of software. If the software is not already installed, the package manager fetches the approrpriate package from the repository. If any of the dependencies are not already installed, the package manager "loops" through the missing dependencies. Once all dependencies are installed, the original software is installed.  
+The user, usually an admin, asks the package manager to install a specific piece of software. If the software is not already installed, the package manager fetches the approrpriate package from the repository. If any of the dependencies are not already installed, the package manager "loops" through the missing dependencies. Once all dependencies are installed, the original software is installed.
 ](images/package_manager_usage.png){#fig:package-manager-usage width="6in"}
 
-The package manager verifies each dependency by confirming that the dependency is already installed or installing the dependency if it is missing. 
+The package manager verifies each dependency by confirming that the dependency is already installed or installing the dependency if it is missing.
 For missing dependencies, the package manager retrieves the dependency's package from the repository and starts the installation procedure for that package.
-Once all the dependencies are installed, the initially requested software is installed. 
+Once all the dependencies are installed, the initially requested software is installed.
 However, the package manager often goes through several iterations of this process because every dependency can have it's own list of dependencies, in which case each of the dependency's dependencies must be verified through the same process.
 
 In most cases, a package manager is able to install all of the missing dependencies, but there are two relatively common problems that a package manager cannot overcome.
@@ -250,26 +268,26 @@ Administrators often block users from installing software to prevent unwanted ch
 #### Containerization and Virtualization
 
 One approach to sharing software involves virtualization.
-Virtualization is a technique that allows the creation of instances of a software environment, often called 'images'. 
+Virtualization is a technique that allows the creation of instances of a software environment, often called 'images'.
 These images present many benefits for software sharing: only a single image file needs to be downloaded by users, and these image files can have all necessary dependencies for the software pre-installed by the developer, thereby avoiding installation difficulties for users.
 
-Traditional virtual machines emulate operating systems and are run directly on the host's hardware. 
-These are sometimes known as 'type 1 hypervisors' [@Nathan-1]. 
+Traditional virtual machines emulate operating systems and are run directly on the host's hardware.
+These are sometimes known as 'type 1 hypervisors' [@Nathan-1].
 Later, 'type 2' virtualization techniques were developed, running on top of the host operating system (OS) by translating all OS instructions within the guest image [@Nathan-1].
-While these approaches excel in portability, they incur a significant CPU and memory overhead, prompting the development of a more recent approach called Operating System (OS)-Level Virtualization. 
-OS-Level Virtualization runs on top of the same kernel as the host OS, allowing multiple isolated user spaces to be run in parallel and incurring lower CPU, memory, and networking overhead [@Nathan-1,@Nathan-2]. 
-These user spaces, e.g. OS-level images being executed by users, are often called "containers", but also go by a variety of other names. 
+While these approaches excel in portability, they incur a significant CPU and memory overhead, prompting the development of a more recent approach called Operating System (OS)-Level Virtualization.
+OS-Level Virtualization runs on top of the same kernel as the host OS, allowing multiple isolated user spaces to be run in parallel and incurring lower CPU, memory, and networking overhead [@Nathan-1,@Nathan-2].
+These user spaces, e.g. OS-level images being executed by users, are often called "containers", but also go by a variety of other names.
 Examples of this technique include Docker [@Nathan-3], LXC [@Nathan-4], OpenVZ [@Nathan-5], Linux-VServer [@Nathan-6], and rkt [@Nathan-7].
 
-Of these, Docker is perhaps the most widely-used platform. 
-A key aspect of the Docker approach is its modularity: images are stored in a public repository on Docker's website, and it is easy to use an existing image as a "base" to build a new image off of. 
-Docker images are defined by a human-readable, plaintext "Dockerfile" in which the developer specifies whether to build off of a previous base docker image and what additional software libraries and dependencies should be installed. 
-The Dockerfile also serves as an easy-to-read documentation of what dependencies the software is built on [@Nathan-8]. 
+Of these, Docker is perhaps the most widely-used platform.
+A key aspect of the Docker approach is its modularity: images are stored in a public repository on Docker's website, and it is easy to use an existing image as a "base" to build a new image off of.
+Docker images are defined by a human-readable, plaintext "Dockerfile" in which the developer specifies whether to build off of a previous base docker image and what additional software libraries and dependencies should be installed.
+The Dockerfile also serves as an easy-to-read documentation of what dependencies the software is built on [@Nathan-8].
 Docker then builds an image based on the developer’s specifications and this image can be uploaded to the Docker website.
 
-Several limitations exist with Docker and other OS-level virtualization platforms. 
-OS-level images are, as the name implies, limited to a specific host operating system [@Nathan-1,@Nathan-8]. 
-Security concerns have been raised about the vulnerability of containers to compromise, denial of service, and privilege escalation attacks [@Nathan-2]. 
+Several limitations exist with Docker and other OS-level virtualization platforms.
+OS-level images are, as the name implies, limited to a specific host operating system [@Nathan-1,@Nathan-8].
+Security concerns have been raised about the vulnerability of containers to compromise, denial of service, and privilege escalation attacks [@Nathan-2].
 Deployment on high-performance computing clusters is a promising possibility but presents substantial engineering challenges having to do with maximizing resource utilization and allocating resources effectively [@Nathan-9].
 
 ![
@@ -425,7 +443,7 @@ The sets obtained for omicX and the non-omics package managers in @fig:available
 @Docker-packages: https://hub.docker.com/search?q=&type=image&page=1
 @EasyBuild-packages: https://easybuild.readthedocs.io/en/latest/version-specific/Supported_software.html
 @Flatpak-packages: https://flathub.org/apps/category/All
-@GNU_Guix-packages: https://guix.gnu.org/packages/ 
+@GNU_Guix-packages: https://guix.gnu.org/packages/
 @omicX-packages: https://omictools.com/software?page=1
 @pip-packages: https://pypi.org/simple/
 @Singularity-packages: https://singularity-hub.org/apps
@@ -444,6 +462,8 @@ The sets obtained for omicX and the non-omics package managers in @fig:available
 @Nathan-7: https://coreos.com/rkt/
 @Nathan-8: https://dl.acm.org/doi/10.1145/2723872.2723882
 @Nathan-9: https://arxiv.org/abs/1807.06193
+
+@python-3-changes https://docs.python.org/3.0/whatsnew/3.0.html
 </div>
 
 

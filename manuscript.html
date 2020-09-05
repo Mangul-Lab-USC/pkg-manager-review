@@ -17,7 +17,8 @@
   <meta name="author" content="Qiyang Hu" />
   <meta name="author" content="Jaqueline J. Brito" />
   <meta name="author" content="Thiago Mosqueiro" />
-  <meta name="dcterms.date" content="2020-09-03" />
+  <meta name="author" content="Benjamin J. Heil" />
+  <meta name="dcterms.date" content="2020-09-05" />
   <meta name="keywords" content="package managers, containerization, distribution, docker" />
   <title>Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities</title>
   <style>
@@ -40,8 +41,8 @@
   <meta name="citation_title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
   <meta property="og:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
   <meta property="twitter:title" content="Packaging and containerizing of bioinformatics software: advances, challenges, and opportunities" />
-  <meta name="dc.date" content="2020-09-03" />
-  <meta name="citation_publication_date" content="2020-09-03" />
+  <meta name="dc.date" content="2020-09-05" />
+  <meta name="citation_publication_date" content="2020-09-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -99,15 +100,19 @@
   <meta name="citation_author_institution" content="None" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="twitter:creator" content="@None" />
+  <meta name="citation_author" content="Benjamin J. Heil" />
+  <meta name="citation_author_institution" content="Genomics and Computational Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania" />
+  <meta name="citation_author_orcid" content="0000-0002-2811-1031" />
+  <meta name="twitter:creator" content="@autobencoder" />
   <link rel="canonical" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta property="og:url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta property="twitter:url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta name="citation_fulltext_html_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/" />
   <meta name="citation_pdf_url" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/" />
-  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/" />
+  <meta name="manubot_html_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -121,10 +126,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/eff73eb20e929d495f419ad572622b6dfcb2c32d/">permalink</a>)
+(<a href="https://Mangul-Lab-USC.github.io/pkg-manager-review/v/ab2544fda55c8c521f2ffa130d9a29dde160457f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/eff73eb20e929d495f419ad572622b6dfcb2c32d">Mangul-Lab-USC/pkg-manager-review@eff73eb</a>
-on September 3, 2020.
+from <a href="https://github.com/Mangul-Lab-USC/pkg-manager-review/tree/ab2544fda55c8c521f2ffa130d9a29dde160457f">Mangul-Lab-USC/pkg-manager-review@ab2544f</a>
+on September 5, 2020.
 </em></small></p>
 <h2 id="unsorted-list-of-authors">Unsorted list of authors</h2>
 <ul>
@@ -208,6 +213,16 @@ Department of Clinical Pharmacy, School of Pharmacy, University of Southern Cali
 <small>
 None
 </small></p></li>
+<li><p><strong>Benjamin J. Heil</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-2811-1031">0000-0002-2811-1031</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/ben-heil">ben-heil</a>
+· <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
+<a href="https://twitter.com/autobencoder">autobencoder</a><br>
+<small>
+Genomics and Computational Biology Graduate Group, Perelman School of Medicine, University of Pennsylvania
+</small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
@@ -239,6 +254,12 @@ We also propose principles that can make packaging and containerizing of bioinfo
 <p>The installation process of bioinformatics research software is typically a multi-step process, starting with the end-user locating and downloading the software.
 Next is the actual installation, during which the end-user must determine what dependencies are missing and resolve them by installing the required software<a href="https://paperpile.com/c/4vBDtY/kjwlC">5</a>.
 Even in cases where the end-user is familiar with this process, they are typically installing on high-performance clusters where they are constrained by user-level permissions that prevent them from following standard installation procedures.</p>
+<p>In addition to being difficult, manual installation of bioinformatics software can lead to irreproducible findings.
+Software versions change over time, sometimes leading to different runtime behavior.
+If an analysis is dependent on recently introduced features of a tool, users trying to reproduce the work with older installations will fail.
+Likewise, even existing functionality can change over time.
+For example, the <code>input</code> function in Python 2 is used to run code while in Python 3 it creates a command line prompt <span class="citation" data-cites="python-3-changes">[<span class="citeproc-not-found" data-reference-id="python-3-changes"><strong>???</strong></span>]</span>.
+To prevent such issues without using a package manager, it is necessary to manually keep track of the versions of all dependencies.</p>
 <ul>
 <li>root access limitations</li>
 <li>reproducibility of findings</li>
@@ -250,7 +271,7 @@ Even in cases where the end-user is familiar with this process, they are typical
 <p>Package managers appeared nearly thirty years ago as software developers sought to automate and standardize the software installation process.
 The earliest package managers (e.g. APT and RPM) were built into Linux operating systems and lacked now common features like dependency resolution.
 Modern package managers are available for all major operating systems, with both integrated and user-installed options available.
-Some are package managers are limited to software written in a specific programming language (e.g. pip distributes software written in Perl), while others are limited to sofware with a particular purpose (e.g. Bioconda distributes omics software).</p>
+Some are package managers are limited to software written in a specific programming language (e.g. pip distributes software written in Python), while others are limited to sofware with a particular purpose (e.g. Bioconda distributes omics software).</p>
 <p>Every package managers uses its own package format, which follows the general structure shown in Figure <a href="#fig:package-schematic">1</a>.</p>
 <div id="fig:package-schematic" class="fignos">
 <figure>
@@ -266,8 +287,7 @@ For most packages, this includes verifying the installation of all dependencies,
 <div id="fig:package-manager-usage" class="fignos">
 <figure>
 <img src="images/package_manager_usage.png" style="width:6in" alt="" /><figcaption><span>Figure 2:</span> <strong>Standard workflow for installing software via a package manager.</strong>
-The user, usually an admin, asks the package manager to install a specific piece of software. If the software is not already installed, the package manager fetches the approrpriate package from the repository. If any of the dependencies are not already installed, the package manager “loops” through the missing dependencies. Once all dependencies are installed, the original software is installed.<br />
-</figcaption>
+The user, usually an admin, asks the package manager to install a specific piece of software. If the software is not already installed, the package manager fetches the approrpriate package from the repository. If any of the dependencies are not already installed, the package manager “loops” through the missing dependencies. Once all dependencies are installed, the original software is installed.</figcaption>
 </figure>
 </div>
 <p>The package manager verifies each dependency by confirming that the dependency is already installed or installing the dependency if it is missing.
@@ -469,6 +489,7 @@ The sets obtained for omicX and the non-omics package managers in <a href="#fig:
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <!-- References for HTML versions of repositories -->
+<p><span class="citation" data-cites="python-3-changes">[<span class="citeproc-not-found" data-reference-id="python-3-changes"><strong>???</strong></span>]</span> https://docs.python.org/3.0/whatsnew/3.0.html</p>
 <div id="ref-m7GlMoKS">
 <p>1. <strong>Performance Evaluation of OS-Level Virtualization Solutions for HPC Purposes on SoC-Based Systems</strong> <br />
 David Beserra, Manuele Kirsch Pinheiro, Carine Souveyet, Luiz Angelo Steffenel, Edward David Moreno<br />
