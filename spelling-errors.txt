@@ -31,7 +31,7 @@ GPL
 Grüning
 Guix
 heatmap
-heil
+Heil
 Heng
 Homebrew
 Hoste

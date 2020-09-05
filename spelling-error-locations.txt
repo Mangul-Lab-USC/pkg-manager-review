@@ -45,7 +45,6 @@ content/03.discussion.md:158:omicX
 content/03.discussion.md:158:omicX
 content/03.discussion.md:158:usally
 content/03.discussion.md:159:omics
-content/03.discussion.md:159:sofware
 content/03.discussion.md:163:Availablity
 content/03.discussion.md:163:Bioconda
 content/03.discussion.md:163:Bioconda's
